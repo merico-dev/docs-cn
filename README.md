@@ -1,2 +1,2 @@
-# docs-cn
-This repository hosts all Chinese version product documentations for Merico Enterprise Edition.
+# 产品使用说明文档库
+这个库托管了思码逸企业版所有的中文产品文档。
