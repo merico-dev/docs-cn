@@ -1,36 +1,37 @@
 # 团队表现
 
-<br>
+<br />
 
 ## 要点概述
-- 在团队表现版块下，可以从人员聚合为团队的维度查看开发效能、质量指标数据。
 
-- 当前团队表现**仅**支持查看单个团队的效率报表。
+-   在团队表现版块下，可以从人员聚合为团队的维度查看开发效能、质量指标数据。
 
-<br>
+-   当前团队表现**仅**支持查看单个团队的效率报表。
+
+<br />
 
 ## 导航说明
 
 ### 基础导航
 
-- 左侧菜单栏 **团队表现** -> 点击某个团队 -> 进入团队表现详情界面。
+-   左侧菜单栏 **团队表现** -> 点击某个团队 -> 进入团队表现详情界面。
 
 <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team1.png" />
-    
+
 <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team2.png" />
-    
-<br>
+
+<br />
 
 ### 分类对比
 
-- 在团队表现版块，支持按团队成员进行数据对比查看，也支持按自定义字段如职位、岗级等分类聚合团队成员进行数据对比查看。
+-   在团队表现版块，支持按团队成员进行数据对比查看，也支持按自定义字段如职位、岗级等分类聚合团队成员进行数据对比查看。
 
 <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team3.png" />
-    
-<br>
+
+<br />
 
 ### 单选团队查看数据
 
