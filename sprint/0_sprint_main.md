@@ -1,3 +1,8 @@
+---
+title: 迭代表现 Beta
+alias: []
+---
+
 # 迭代表现 Beta
 
 <br />

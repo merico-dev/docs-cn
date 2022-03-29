@@ -1,13 +1,18 @@
+---
+title: 快速开始！
+alias: []
+---
+
 # 快速开始！
 
 <br />
 
 只需完成如下简单四步，您就可以使用思码逸系统来进行代码分析啦！
 
-**Step 1：**[完成系统基础配置](https://www.yuque.com/docs/share/bc3d2aae-34d6-4333-a987-ec62f31ef3d3?)==**需要修改链接**==
-**Step 2：**[导入或新增代码库](https://www.yuque.com/docs/share/73e78ffa-45a7-4aa6-8340-60039946619b?)==**需要修改链接**==
-**Step 3：**[导入或设置账户](https://www.yuque.com/docs/share/14e92b45-a7f7-4a20-9c91-70977c032f80?)==**需要修改链接**==
-**Step 4：**[导入或配置项目组](https://www.yuque.com/docs/share/01a1f98a-5f3d-4fa3-9af7-1873f9471d5e?)==**需要修改链接**==
+**Step 1：**[完成系统基础配置](quick_start\step_1\0_system_configurations.md)
+**Step 2：**[导入或新增代码库](quick_start\step_2\0_import_or_new_repository.md)
+**Step 3：**[导入或设置账户](quick_start\step_3\0_import_or_new_account.md)
+**Step 4：**[导入或配置项目组](quick_start\step_4\0_import_or_setup_project.md)
 
 <br />
 

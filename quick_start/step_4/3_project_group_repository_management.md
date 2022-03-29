@@ -1,3 +1,8 @@
+---
+title: 项目组代码库管理
+alias: []
+---
+
 # 项目组代码库管理
 
 <br />
@@ -26,7 +31,7 @@
 
 ### 1. 新增代码库
 
-参考：==**从 Git 地址新增代码库（需要改链接），从 GitLab 导入代码库（需要改链接），表格文件导入代码库（需要改链接）**==。
+参考：==**[从 Git 地址新增代码库](quick_start\step_2\1_new_repository_from_git_url.md)，[从 GitLab 导入代码库](quick_start\step_2\2_import_repository_from_Gitlab.md)，[表格文件导入代码库](quick_start\step_2\3_import_repository_from_template.md)**==。
 
 <br />
 
