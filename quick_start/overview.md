@@ -1,6 +1,6 @@
 ---
 title: 快速开始！
-alias: []
+aliases: []
 ---
 
 # 快速开始！

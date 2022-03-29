@@ -1,6 +1,6 @@
 ---
 title: 代码重复
-alias: []
+aliases: []
 ---
 
 # 代码重复

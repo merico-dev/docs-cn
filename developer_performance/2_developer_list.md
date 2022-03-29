@@ -1,6 +1,6 @@
 ---
 title: 贡献者列表
-alias: []
+aliases: []
 ---
 
 # 贡献者列表

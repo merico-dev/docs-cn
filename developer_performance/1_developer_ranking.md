@@ -1,6 +1,6 @@
 ---
 title: 贡献者排行
-alias: []
+aliases: []
 ---
 
 # 贡献者排行

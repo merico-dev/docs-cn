@@ -1,6 +1,6 @@
 ---
 title: 质量报表
-alias: []
+aliases: []
 ---
 
 # 质量报表

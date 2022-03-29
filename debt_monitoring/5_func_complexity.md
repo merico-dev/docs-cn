@@ -1,6 +1,6 @@
 ---
 title: 函数复杂度
-alias: []
+aliases: []
 ---
 
 # 函数复杂度

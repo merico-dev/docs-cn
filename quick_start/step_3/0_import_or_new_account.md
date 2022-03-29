@@ -1,6 +1,6 @@
 ---
 title: 导入或设置账户
-alias: []
+aliases: []
 ---
 
 # Step 3：导入或设置账户

@@ -1,6 +1,6 @@
 ---
 title: 项目表现
-alias: []
+aliases: []
 ---
 
 # 项目表现

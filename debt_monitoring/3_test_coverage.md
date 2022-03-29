@@ -1,6 +1,6 @@
 ---
 title: 测试覆盖度
-alias: []
+aliases: []
 ---
 
 # 测试覆盖度

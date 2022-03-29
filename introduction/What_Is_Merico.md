@@ -1,6 +1,6 @@
 ---
 title: 认识思码逸
-alias: []
+aliases: []
 ---
 
 # 认识思码逸

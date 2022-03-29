@@ -1,6 +1,6 @@
 ---
 title: 迭代表现 Beta
-alias: []
+aliases: []
 ---
 
 # 迭代表现 Beta

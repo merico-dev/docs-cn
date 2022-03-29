@@ -1,6 +1,6 @@
 ---
 title: 迭代质量
-alias: []
+aliases: []
 ---
 
 # 迭代质量

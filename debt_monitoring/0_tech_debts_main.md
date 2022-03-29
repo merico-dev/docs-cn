@@ -1,6 +1,6 @@
 ---
 title: 技术债监控
-alias: []
+aliases: []
 ---
 
 # 技术债监控

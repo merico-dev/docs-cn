@@ -1,6 +1,6 @@
 ---
 title: 角色设置
-alias: []
+aliases: []
 ---
 
 # 角色设置

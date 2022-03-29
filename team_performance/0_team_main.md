@@ -1,6 +1,6 @@
 ---
 title: 团队表现
-alias: []
+aliases: []
 ---
 
 # 团队表现

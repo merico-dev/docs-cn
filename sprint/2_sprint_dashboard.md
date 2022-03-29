@@ -1,6 +1,6 @@
 ---
 title: 工作面板
-alias: []
+aliases: []
 ---
 
 # 工作面板

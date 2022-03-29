@@ -1,6 +1,6 @@
 ---
 title: 系统设置
-alias: []
+aliases: []
 ---
 
 # 系统设置

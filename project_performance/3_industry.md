@@ -1,6 +1,6 @@
 ---
 title: 同行对比
-alias: []
+aliases: []
 ---
 
 # 同行对比

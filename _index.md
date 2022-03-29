@@ -1,7 +1,7 @@
 ---
 title: Merico 简介
 summary: 了解 Merico。
-aliases: ['/docs-cn/dev/']
+aliaseses: ['/docs-cn/dev/']
 ---
 
 <!-- markdownlint-disable MD046 -->

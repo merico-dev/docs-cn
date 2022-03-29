@@ -1,6 +1,6 @@
 ---
 title: 提交列表
-alias: []
+aliases: []
 ---
 
 # 提交列表

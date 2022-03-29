@@ -1,6 +1,6 @@
 ---
 title: Step 2：导入或新增代码库
-alias: []
+aliases: []
 ---
 
 # Step 2：导入或新增代码库

@@ -1,6 +1,6 @@
 ---
 title: 从 Git 地址新增代码库
-alias: []
+aliases: []
 ---
 
 # 从 Git 地址新增代码库

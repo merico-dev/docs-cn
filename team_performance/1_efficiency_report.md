@@ -1,6 +1,6 @@
 ---
 title: 效率报表
-alias: []
+aliases: []
 ---
 
 # 效率报表

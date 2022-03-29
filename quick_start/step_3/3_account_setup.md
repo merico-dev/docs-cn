@@ -1,6 +1,6 @@
 ---
 title: 账户设置
-alias: []
+aliases: []
 ---
 
 # 账户设置

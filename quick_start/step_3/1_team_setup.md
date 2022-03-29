@@ -1,6 +1,6 @@
 ---
 title: 团队设置
-alias: []
+aliases: []
 ---
 
 # 团队设置

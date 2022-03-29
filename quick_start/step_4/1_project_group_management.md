@@ -1,6 +1,6 @@
 ---
 title: 项目组管理
-alias: []
+aliases: []
 ---
 
 # 项目组管理
@@ -16,7 +16,7 @@ alias: []
 
 -   **可进行操作**：新增子项目组 / 编辑项目组 / 移动项目组 / 删除项目组 / 移动代码库 / 删除代码库 / 选择用户 / 选择团队 。
 
--   可以通过 **新增子项目组 、从 GitLab 导入项目组、Excel 批量新增代码库时创建项目组** 三种方式来新增子项目组。通过 GitLab 导入项目组操作请参考：**[系统集成方式导入代码库](quick_start\step_2\2_import_repository_from_Gitlab.md)**，通过 Excel 批量新增代码库时创建项目组请参考: **[表格文件导入代码库](quick_start\step_2\3_import_repository_from_template.md)**。
+-   可以通过 **新增子项目组 、从 GitLab 导入项目组、Excel 批量新增代码库时创建项目组** 三种方式来新增子项目组。通过 GitLab 导入项目组操作请参考：**[系统集成方式导入代码库](quick_start\step_2\4_GitLab_integration.md)**，通过 Excel 批量新增代码库时创建项目组请参考: **[表格文件导入代码库](quick_start\step_2\3_import_repository_from_template.md)**。
 
 -   项目组呈树形结构，顶层项目组**只有一个**。唯一顶级父项目组在系统第一次部署时即创建。
 

@@ -1,6 +1,6 @@
 ---
 title: Step 4：导入或配置项目组
-alias: []
+aliases: []
 ---
 
 # Step 4：导入或配置项目组

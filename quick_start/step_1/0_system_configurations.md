@@ -1,6 +1,6 @@
 ---
 title: Step 1：完成系统基础设置
-alias: []
+aliases: []
 ---
 
 # Step 1：完成系统基础设置

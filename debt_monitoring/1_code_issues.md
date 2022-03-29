@@ -1,6 +1,6 @@
 ---
 title: 代码问题
-alias: []
+aliases: []
 ---
 
 # 代码问题

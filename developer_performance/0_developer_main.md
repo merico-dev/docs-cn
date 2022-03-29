@@ -1,6 +1,6 @@
 ---
 title: 工程师表现
-alias: []
+aliases: []
 ---
 
 # 工程师表现

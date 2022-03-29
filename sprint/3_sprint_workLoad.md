@@ -1,6 +1,6 @@
 ---
 title: 工作量
-alias: []
+aliases: []
 ---
 
 # 工作量

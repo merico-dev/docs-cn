@@ -1,6 +1,6 @@
 ---
 title: 从 GitLab 导入代码库
-alias: []
+aliases: []
 ---
 
 # 从 GitLab 导入代码库

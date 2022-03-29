@@ -1,6 +1,6 @@
 ---
 title: 迭代进度
-alias: []
+aliases: []
 ---
 
 # 迭代进度
