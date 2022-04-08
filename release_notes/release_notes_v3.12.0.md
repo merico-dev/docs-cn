@@ -1,6 +1,6 @@
 ---
 title: 版本更新说明v3.12.0
-aliases: []
+aliases: [/release_notes/release_notes_v3.12.0]
 ---
 
 <center>版本更新说明v3.12.0</center>
