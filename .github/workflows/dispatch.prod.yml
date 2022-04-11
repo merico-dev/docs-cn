@@ -3,10 +3,12 @@ name: prod dispath
 on:
   watch:
     types: started
+  workflow_dispatch:
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
       - name: Extract sha
