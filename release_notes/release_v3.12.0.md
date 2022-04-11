@@ -1,4 +1,9 @@
-<center>版本更新说明v3.12.0</center>
+---
+title: 版本更新说明v3.12.0
+aliases: []
+---
+
+# 版本更新说明v3.12.0
 
 <center>
 
