@@ -1,9 +1,9 @@
 name: prod dispath
 
 on:
-  watch:
-    types: started
   workflow_dispatch:
+  # watch:
+  #   types: started
 
 jobs:
   trigger:
