@@ -18,3 +18,11 @@ aliases: []
 ](https://chinesefonts.org/fonts/wenquanyi-micro-hei-regular)
 5. 安装字体 [WenQuanYi Micro Hei Mono Regular
 ](https://chinesefonts.org/fonts/wenquanyi-micro-hei-mono-regular)
+
+## 注意 TOC.md
+使用绝对路径作为链接地址
+
+```diff
+- [关于思码逸](introduction/what_is_Merico.md)
++ [关于思码逸](/introduction/what_is_Merico.md)
+```
