@@ -12,7 +12,7 @@ aliases: []
 
 ## 生成 PDF
 1. 安装python3（略）
-2. 安装pandoc `brew install pandoc`
+2. 安装[pandoc@1.19.1](https://github.com/jgm/pandoc/releases/tag/1.19.1)
 3. [安装MacTex](https://tug.org/mactex/mactex-download.html) （[其他方案](https://gist.github.com/peterhurford/75957ba9335e755013b87254ec85fab1)）
 4. 安装字体 [WenQuanYi Micro Hei Regular
 ](https://chinesefonts.org/fonts/wenquanyi-micro-hei-regular)

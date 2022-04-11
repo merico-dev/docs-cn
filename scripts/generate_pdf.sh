@@ -22,7 +22,7 @@ _version_tag="$(date '+%Y%m%d')"
 
 output_path="output.pdf"
 
-pandoc -N --toc -f markdown+smart --pdf-engine=xelatex \
+pandoc -N --toc --smart --latex-engine=xelatex \
 --template=templates/template.tex \
 --listings \
 --columns=80 \
