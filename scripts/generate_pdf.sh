@@ -5,8 +5,8 @@
 set -e
 # test passed in pandoc 1.19.1
 
-MAINFONT="WenQuanYi Micro Hei"
-MONOFONT="WenQuanYi Micro Hei Mono"
+MAINFONT="Source Han Sans SC"
+MONOFONT="Menlo"
 
 # MAINFONT="Tsentsiu Sans HG"
 # MONOFONT="Tsentsiu Sans Console HG"
