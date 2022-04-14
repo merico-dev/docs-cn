@@ -56,20 +56,17 @@ aliases: []
 -   可以切换到**表模式**来查看具体的开发当量新增数据。点击**下载**按钮可以下载数据表。
 
 ==_单个项目（组）维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic1.png" />
+![单个项目（组）维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic1.png)
 
 <br />
 
 ==_多个项目（组）对比维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic2.png" />
+![多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic2.png)
 
 <br />
 
 ==_单个项目（组）的贡献者维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Contributor.png" />
+![单个项目（组）的贡献者维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Contributor.png)
 
 <br />
 
@@ -88,14 +85,12 @@ aliases: []
 -   可以切换到**表模式**来查看具体的人均当量趋势数据。点击**下载**按钮可以下载数据表。
 
 ==_单个项目（组）维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic3.png" />
+![单个项目（组）维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic3.png)
 
 <br />
 
 ==_多个项目（组）对比维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic4.png" />
+![多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic4.png)
 
 <br />
 
@@ -108,8 +103,7 @@ aliases: []
 -   可以切换到**表模式**来查看具体的人均当量平均值数据。点击**下载**按钮可以下载数据表。
 
 ==_**仅**多个项目（组）对比维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic4.png" />
+![**仅**多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic4.png)
 
 <br />
 
@@ -120,14 +114,12 @@ aliases: []
 -   可以切换到**表模式**来查看具体的开发当量数据。点击**下载**按钮可以下载数据表。
 
 ==_多个项目（组）对比维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic5.png" />
+![多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic5.png)
 
 <br />
 
 ==_单个项目（组）的贡献者维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Contributor.png" />
+![单个项目（组）的贡献者维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Contributor.png)
 
 <br />
 
@@ -154,8 +146,7 @@ aliases: []
 4. **异常点观察：** 观察有无低异常点和高异常点。
 
 ==_单个项目（组）/多个项目（组）对比维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic5.png" />
+![单个项目（组）/多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic5.png)
 
 <br />
 
@@ -180,8 +171,7 @@ aliases: []
 -   参考多数项目的分析结果，通常 2 周步长是一个比较稳定的数据单位，可以用作项目过程中的判稳。
 
 ==_**仅**多个项目（组）对比维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic6.png" />
+![**仅**多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Pic6.png)
 
 <br />
 
@@ -204,7 +194,6 @@ aliases: []
 -   看帕累托折线的陡峭/平缓程度，如果是很平缓的一条曲线，说明各贡献者相互之间的数据区别不大，如果折线变化比较陡峭，说明有比较大的差异。
 
 ==_**仅**单个项目（组）的贡献者维度_==
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Contributor.png" />
+![**仅**单个项目（组）的贡献者维度](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Efficient_Contributor.png)
 
 <br />
