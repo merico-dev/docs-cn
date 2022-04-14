@@ -2,5 +2,6 @@
   "markdown.styles": [
     ".vscode/markdown-style.css"
   ],
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "prettier.tabWidth": 2
 }
