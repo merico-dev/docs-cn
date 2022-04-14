@@ -21,8 +21,7 @@ aliases: []
 
 菜单 **设置** -> 左侧菜单栏 **团队设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team9.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team9.png)
 
 <br />
 
@@ -32,22 +31,19 @@ aliases: []
 
 **Step 1：设置团队 -> 创建新团队。** 注意：不可删除顶层父级团队。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team2.png)
 
 <br />
 
 **Step 2：** 输入团队信息 -> 点击 **确定** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team3.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team3.png)
 
 <br />
 
 **Step 3：** 查看新的团队创建成功。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team4.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team4.png)
 
 <br />
 
@@ -55,8 +51,7 @@ aliases: []
 
 在 **设置团队** 的下拉菜单里，选择 **重命名** 可以重命名该团队，选择 **移动团队** 可以移动该团队在组织中的相对位置。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team5.png)
 
 <br />
 
@@ -65,8 +60,7 @@ aliases: []
 在 **设置团队** 的下拉菜单里，选择 **删除团队** 可以删除该团队。
 **注意：** 删除团队之前，需要把此团队及其下属团队内的成员全部移除，此团队的全部下属团队也都需要移除。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team5.png)
 
 <br />
 
@@ -76,15 +70,13 @@ aliases: []
 
 **Step 1：更多 -> 编辑数据权限**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team6.png)
 
 <br />
 
 **Step 2：** 勾选或取消勾选账户，以设置某账户**可以/不可以访问此团队的数据**。点击 ** 确定** 按钮保存设置。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team7.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team7.png)
 
 <br />
 
@@ -92,15 +84,13 @@ aliases: []
 
 **Step 1：更多 -> 编辑团队成员**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team6.png)
 
 <br />
 
 **Step 2：** 勾选或取消勾选账户，以设置某账户**属于/不属于访问此团队**。点击 **确定** 按钮保存设置。
 ==属于某团队的账户的指标数据才会被纳入此团队的汇总数据中。==
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team8.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team8.png)
 
 <br />

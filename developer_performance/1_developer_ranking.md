@@ -25,8 +25,7 @@ aliases: []
 
 -   各指标权重配置在：**设置 -> 排行榜设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Ranking_Setup.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Ranking_Setup.png)
 
 <br />
 
@@ -62,8 +61,6 @@ aliases: []
 
 ## 示例
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Ranking1.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Ranking1.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Ranking2.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Ranking2.png)

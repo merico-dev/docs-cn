@@ -42,8 +42,7 @@ aliases: []
 
 下图简单演示了这个过程如何从代码的修改计算出代码当量的数值。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC1.png)
 
 ### 实例对比
 
@@ -53,8 +52,7 @@ aliases: []
 
 而单纯的格式变化对 AST 没有影响，此段代码修改前后 AST 是相同的，因此其代码当量为 0。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC2.png)
 
 #### 例 2
 
@@ -62,8 +60,7 @@ aliases: []
 
 但是从抽象语法树的角度，这次修改只是改变了 myMethod()函数对应节点在其父节点下的顺序，该节点本身未发生任何修改。因此修改 myMethod()的代码当量为 0。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC3.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC3.png)
 
 #### 例 3
 
@@ -71,8 +68,7 @@ aliases: []
 
 但是通过为每个 AST 节点类型分配不同的权重，我们可以对不同类型 AST 节点的编辑操作进行更合理的评估，更合理的量化开发过程中的工作量。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC4.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/ELOC4.png)
 
 <br />
 

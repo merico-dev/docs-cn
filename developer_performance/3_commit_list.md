@@ -39,8 +39,7 @@ aliases: []
 
 -   **操作：** 点击 **详情** 可查看此提交详细信息；点击 **备注** 可给此提交添加备注；点击 **排除提交** 按钮可将此提交排除，重新分析此代码库后此提交当量变为 0。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Commit1.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Commit1.png)
 
 <br />
 
@@ -66,8 +65,7 @@ aliases: []
 
 -   点击变更文件名，显示该文件源码。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Commit2.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Commit2.png)
 
 <br />
 
@@ -75,5 +73,4 @@ aliases: []
 
 -   变更函数列表显示此提交变更各函数签名、该变更函数对应的开发价值、代码当量、添加行数、删除行数、入度和出度。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Commit3.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Commit3.png)

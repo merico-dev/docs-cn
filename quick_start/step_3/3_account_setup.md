@@ -26,8 +26,7 @@ aliases: []
 
 菜单 **设置** -> 左侧菜单栏 **账户设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account1.png)
 
 <br />
 
@@ -37,22 +36,19 @@ aliases: []
 
 **Step 1：** 点击 **添加成员** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account2.png)
 
 <br />
 
 **Step 2：** 填入此成员账户信息，**姓名，团队和主邮箱必填**。可以给定义了的自定义字段赋值，（归属）团队、角色、项目权限、团队权限都可以选择多个。信息输入完毕后，点击 **确定** 按钮保存信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account3.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account3.png)
 
 <br />
 
 **Step3：** 查看新成员账户已成功创建，初始默认状态为 **已禁用**，需要启用此账户才能登录思码逸系统。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account4.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account4.png)
 
 <br />
 
@@ -62,8 +58,7 @@ aliases: []
 
 **Step 0：** 点击 **添加成员** 按钮旁边的 **...** 按钮 -> 下拉菜单中选择 **批量添加成员**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account5.png)
 
 <br />
 
@@ -71,15 +66,13 @@ aliases: []
 
 **Step 1：** 点击 **批量添加成员**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account6.png)
 
 <br />
 
 **Step 2：** 弹出界面上可以按指引新增成员账户或者按 CSV 模板填写信息后上传 CSV 文件来添加账户。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account7.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account7.png)
 
 <br />
 
@@ -87,15 +80,13 @@ aliases: []
 
 **Step 1：** 点击 **GitLab 导入**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account6.png)
 
 <br />
 
 **Step 2：** 弹出界面上按指引从 GitLab 导入用户信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account8.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account8.png)
 
 <br />
 
@@ -103,15 +94,13 @@ aliases: []
 
 **Step 1：** 点击 **表格文件导入**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account6.png)
 
 <br />
 
 **Step 2：** 弹出界面上按指引使用模板表格导入用户信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account9.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account9.png)
 
 <br />
 
@@ -119,8 +108,7 @@ aliases: []
 
 **Step 1：** 点击需要修改的账户右侧操作区的 **修改** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account10.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account10.png)
 
 <br />
 
@@ -136,8 +124,7 @@ aliases: []
 
 **Step 2：** 此示例环境没有配置 SMTP 发件箱，需要直接设置重置密码，设置好新密码，点击 **确认** 按钮保存新密码。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account11.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account11.png)
 
 <br />
 
@@ -145,27 +132,23 @@ aliases: []
 
 **Step 1：** 勾选需要合并的账户，点击 **合并账户** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account12.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account12.png)
 
 <br />
 
 **Step 2：** 选择主账户作为之后的登录账户，点击 **确定** 按钮确认合并。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account13.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account13.png)
 
 <br />
 
 在 **合并贡献者** 界面，列出了根据提交信息识别的可能为同一个贡献者的提交邮箱，可以在此界面快速合并贡献者提交邮箱。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account14.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account14.png)
 
 <br />
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account15.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account15.png)
 
 <br />
 
@@ -174,8 +157,7 @@ aliases: []
 -   **启用**：点击 **启用** 按钮，启用 **已禁用** 状态的成员账户，启用后，此成员账户状态变为 **已启用**，账户状态栏显示为绿色圆球，账户启用后方可设置是否允许登录思码逸系统。
 -   **禁用**：点击 **禁用** 按钮，禁用 **已启用** 状态的成员账户，禁用后，此成员账户状态变为 **已禁用**，账户状态栏显示为红色圆球，**不可**登录思码逸系统。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account16.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account16.png)
 
 <br />
 
@@ -185,18 +167,15 @@ aliases: []
 -   也可以点击 **修改** 按钮，进入账户修改界面，设置此账户是否可登录。
 -   可以多选多个账户，**批量**设置多个账户 允许登录或者禁止登录。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account17.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account17.png)
 
 <br />
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account18.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account18.png)
 
 <br />
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account19.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account19.png)
 
 <br />
 
@@ -210,12 +189,10 @@ aliases: []
 
 将某些邮箱加入贡献者黑名单，来自黑名单中的邮箱的提交跳过分析。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account5.png)
 
 <br />
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account20.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Account20.png)
 
 <br />

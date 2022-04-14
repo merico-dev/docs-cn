@@ -13,8 +13,7 @@ aliases: []
 
 -   需要有【系统设置】工作区访问角色权限才能进入系统设置界面。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Settings1.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Settings1.png)
 
 <br />
 

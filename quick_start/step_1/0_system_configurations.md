@@ -19,8 +19,7 @@ aliases: []
 
 **设置 > 系统设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/20220226104354.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/20220226104354.png)
 
 <br />
 
@@ -28,8 +27,7 @@ aliases: []
 
 通过基础设置，设定系统运行所必须的基本参数。点击 **基础设置** 版块处的 **应用** 按钮，保存基础设置信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Basic_Settings.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Basic_Settings.png)
 
 ### -站点地址
 
@@ -57,8 +55,7 @@ aliases: []
 
 完成自定义字段设置后，点击此版块的 **应用** 按钮，保存此处设置。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Custom_Fields.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Custom_Fields.png)
 
 <br />
 
@@ -70,8 +67,7 @@ aliases: []
 
 点击 **SMTP 设置** 版块处的 **应用** 按钮，保存发件设置信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/SMTP.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/SMTP.png)
 
 <br />
 
@@ -81,8 +77,7 @@ aliases: []
 
 点击 **登录鉴权** 版块处的 **应用** 按钮，保存登录鉴权信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/OAuth.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/OAuth.png)
 
 <br />
 
@@ -92,8 +87,7 @@ aliases: []
 
 点击 **LDAP 设置** 版块处的 **应用** 按钮，保存 LDAP 设置信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/LDAP.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/LDAP.png)
 
 <br />
 
@@ -133,8 +127,7 @@ Email 属性信息
 
 点击 **周日报配置** 版块处的 **应用** 按钮，保存周日报配置信息。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Reports_Settings.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Reports_Settings.png)
 
 <br />
 
@@ -186,5 +179,4 @@ Email 属性信息
 
 <br />
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Expert_Security.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Expert_Security.png)

@@ -26,8 +26,7 @@ aliases: []
 
 菜单 **设置** -> 左侧菜单栏 **项目设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup1.jpg" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup1.jpg)
 
 <br />
 
@@ -37,8 +36,7 @@ aliases: []
 
 点击 **选择用户** 链接，搜索需要选择的人员，此人员需在账户设置里已完成相关设置并启用，勾选并点击 **确定** 按钮保存设置。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup5.png)
 
 <br />
 
@@ -52,8 +50,7 @@ aliases: []
 
 在需要添加团队的项目组右侧 **更多** 下拉菜单中点击 **选择团队**，弹出的团队列表中勾选需要添加的团队，点击 **确认** 按钮保存。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup6.png)
 
 <br />
 

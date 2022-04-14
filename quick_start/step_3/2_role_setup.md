@@ -22,8 +22,7 @@ aliases: []
 
 菜单 **设置** -> 左侧菜单栏 **角色设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role1.png)
 
 <br />
 
@@ -33,22 +32,19 @@ aliases: []
 
 **Step 1：** 点击 **创建角色** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role2.png)
 
 <br />
 
 **Step 2：** 输入角色名称和描述，选择此角色的工作区，即可访问的界面。点击 **确定** 按钮完成角色创建。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role3.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role3.png)
 
 <br />
 
 **Step 3：** 角色创建成功。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role4.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role4.png)
 
 <br />
 
@@ -56,8 +52,7 @@ aliases: []
 
 **Step 1：** 点击某角色的 **编辑角色** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role5.png)
 
 <br />
 
@@ -69,8 +64,7 @@ aliases: []
 
 **Step 1：** 点击某角色的 **选择用户** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role5.png)
 
 <br />
 
@@ -82,8 +76,7 @@ aliases: []
 
 当某个角色关联了账户时，此角色无法被删除，鼠标放到此角色的 **删除** 按钮上时提示 **删除前需要先与关联账户解除关联**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role6.png)
 
 <br />
 
@@ -91,7 +84,6 @@ aliases: []
 **选择用户** 处可以解除被授予此角色的账户与此角色的关联。
 解除掉此角色与所有账户的关联后，点击 **确定删除这个角色** 按钮，即可删除此角色。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role7.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Role7.png)
 
 <br />

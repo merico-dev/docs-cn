@@ -29,12 +29,10 @@ aliases: []
 
 ### 进行中的迭代
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintWorkLoad1.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintWorkLoad1.png)
 
 <br />
 
 ### 已完成的迭代
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintWorkLoad2.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintWorkLoad2.png)

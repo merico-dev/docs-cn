@@ -26,8 +26,7 @@ aliases: []
 
 菜单 **设置** -> 左侧菜单栏 **项目设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup1.jpg" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup1.jpg)
 
 <br />
 
@@ -35,8 +34,7 @@ aliases: []
 
 **Step 0：** 点击某一项目组右侧 **更多** 下拉菜单。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup2.png)
 
 <br />
 
@@ -46,8 +44,7 @@ aliases: []
 
 -   也可通过点击 右上角 **新增项目组** 按钮，直接快速在顶级父项目组下新增子项目组。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup3.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup3.png)
 
 <br />
 
@@ -79,5 +76,4 @@ aliases: []
 
 勾选 **批量操作**，多选数个 **项目组/代码库**，可批量进行 **移动/删除** 操作。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup4.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup4.png)

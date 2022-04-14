@@ -21,11 +21,9 @@ aliases: []
 
 -   左侧菜单栏 **团队表现** -> 点击某个团队 -> 进入团队表现详情界面。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team1.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team2.png)
 
 <br />
 
@@ -33,8 +31,7 @@ aliases: []
 
 -   在团队表现版块，支持按团队成员进行数据对比查看，也支持按自定义字段如职位、岗级等分类聚合团队成员进行数据对比查看。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team3.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Team3.png)
 
 <br />
 

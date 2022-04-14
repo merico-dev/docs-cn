@@ -22,8 +22,7 @@ aliases: []
 
 菜单 **设置** -> 左侧菜单栏 **项目设置**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup1.jpg" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup1.jpg)
 
 <br />
 
@@ -40,11 +39,9 @@ aliases: []
 -   方法一：**设置 - 项目设置 - 删除代码库**
 -   方法二：**设置 - 代码库设置 - 删除代码库**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup7.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup7.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup8.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup8.png)
 
 <br />
 
@@ -52,8 +49,6 @@ aliases: []
 
 -   **设置 - 项目组设置 - 移动代码库和项目组**
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup9.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup9.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup10.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup10.png)

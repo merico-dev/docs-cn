@@ -33,8 +33,7 @@ aliases: []
 
 -   配置好 JIRA 集成信息后，点击 **`立即同步`** 按钮开始同步 JIRA 数据。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/JIRA_Integration.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/JIRA_Integration.png)
 
 <br />
 
@@ -54,18 +53,15 @@ aliases: []
 
 **Step1：** 配置事务类型对应，配置项目组和迭代面板对应。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintSetup1.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintSetup1.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintSetup2.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintSetup2.png)
 
 <br />
 
 **Step2：** 配置迭代面板事务工作流状态对应。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintSetup3.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/SprintSetup3.png)
 
 <br />
 
@@ -73,11 +69,9 @@ aliases: []
 
 在 JIRA 项目中，创建 **Scrum 看板**，并在此看板中启动 **迭代（Sprint）**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/JIRASprintSetup1.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/JIRASprintSetup1.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/JIRASprintSetup2.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/JIRASprintSetup2.png)
 
 <br />
 
@@ -110,5 +104,4 @@ ISSUE-0002
 
 -   可以将某个 GitLab 项目的配置同步到其它需要的项目上。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/GitLab_JIRA.png" />
+![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/GitLab_JIRA.png)

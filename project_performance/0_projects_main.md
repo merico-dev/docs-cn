@@ -25,11 +25,9 @@ aliases: []
 
 -   左侧菜单栏 **项目表现** -> 点击某个项目组或代码库 -> 进入项目表现详情界面。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project1.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project2.png)
 
 <br />
 
@@ -39,11 +37,9 @@ aliases: []
 
 -   点击 **选择项目** 图标 ![image.png](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project3.png)，在项目列表里点击需要查看数据的项目（组）即可。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project4.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project4.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project5.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project5.png)
 
 <br />
 
@@ -53,14 +49,11 @@ aliases: []
 
 -   点击 **选择项目** 图标 ![image.png](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project3.png)，在项目列表里勾选需要查看数据的项目（组），勾选完毕后点击 **对比** 按钮即可。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project4.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project4.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project6.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project6.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project7.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project7.png)
 
 <br />
 
@@ -72,11 +65,9 @@ aliases: []
 
 -   某项目组的 **代码库/贡献者 选择下拉列表** 中勾选需要的代码库/贡献者，筛选完毕后，点击 **查看报表** 即可查看相应的分析数据。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project8.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project8.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project9.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project9.png)
 
 <br />
 
@@ -86,17 +77,13 @@ aliases: []
 
 -   也可以在勾选完毕后，点击 **保存** 按钮，**给此组筛选条件命名并保存**。之后需要再次使用同样的筛选条件时，点击 **查看全部** 链接，打开 **项目/成员筛选条件编辑** 界面，选择之前保存的某组筛选条件并确认即可。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project10.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project10.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project11.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project11.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/project12.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/project12.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project13.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project13.png)
 
 <br />
 
@@ -110,16 +97,13 @@ aliases: []
 
 -   选择好一组项目查询和筛选条件后（单个或多个项目组，代码库筛选，贡献者筛选），点击右侧 **...** 按钮下拉菜单中的 **保存报表** 选项，将此组查询作为报表命名并保存。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report1.png)
 
 -   在 **项目表现 -> 已保存报表** 处可以通过点击已保存报表的链接，进入此报表对应的查询筛选界面。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report2.png)
 
 <br />
 
@@ -127,15 +111,13 @@ aliases: []
 
 -   选择好一组项目查询和筛选条件后（单个或多个项目组，代码库筛选，贡献者筛选），点击右侧 **...** 按钮下拉菜单中的 **导出报表数据** 选项，将此组查询得到的数据结果打包下载。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Data_Export.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Data_Export.png)
 
  <br />
-   
+
 - 在登录账户的 **下载中心** 界面，可以下载导出的报表数据包。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Data_Export1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Data_Export1.png)
 
 <br />
 
@@ -147,8 +129,7 @@ aliases: []
 
 -   在 **选择项目** 列表下方的 **搜索项目** 处，可以直接搜索项目（组）。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project14.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project14.png)
 
 <br />
 
@@ -160,11 +141,9 @@ aliases: []
 
 -   方法二：在选择了项目（组）之后，点击右侧 **关注所有项目** ，来关注当前选中的项目（组）。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star1.png)
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star2.png)
 
 <br />
 
@@ -176,8 +155,7 @@ aliases: []
 
 -   方法二：在选择了项目（组）之后，点击右侧 **取消关注项目**，来取消关注当前选中的项目（组）。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star3.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star3.png)
 
 <br />
 
@@ -185,5 +163,4 @@ aliases: []
 
 -   单选项目（组）时，可以在 **项目表现** 顶层导航直接选择项目（组）。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Navi.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Navi.png)

@@ -20,15 +20,13 @@ aliases: []
 
 ### 一、设置 - 代码库设置 - 新增代码库
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/New_Repository_1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/New_Repository_1.png)
 
 <br />
 
 ### 二、代码库设置 - 新增代码库
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/New_Repository_2.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/New_Repository_2.png)
 
 <br />
 
@@ -36,22 +34,19 @@ aliases: []
 
 1. 点击 **新增代码库** 按钮。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/New_Repository_Button.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/New_Repository_Button.png)
 
 <br />
 
 2. 选择 **GitLab 导入**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/Git_New.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Git_New.png)
 
 <br />
 
 3. 点击 **下一步**。
 
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://release-note.oss-cn-hongkong.aliyuncs.com/img/GitLab_New_1.png" />
+![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/GitLab_New_1.png)
 
 <br />
 
