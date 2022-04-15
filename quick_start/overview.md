@@ -9,10 +9,10 @@ aliases: [/quick_start/overview]
 
 只需完成如下简单四步，您就可以使用思码逸系统来进行代码分析啦！
 
-**Step 1：**[完成系统基础配置](quick_start\step_1\0_system_configurations.md)
-**Step 2：**[导入或新增代码库](quick_start\step_2\0_import_or_new_repository.md)
-**Step 3：**[导入或设置账户](quick_start\step_3\0_import_or_new_account.md)
-**Step 4：**[导入或配置项目组](quick_start\step_4\0_import_or_setup_project.md)
+**Step 1：**[完成系统基础配置](quick_start/step_1/0_system_configurations.md)
+**Step 2：**[导入或新增代码库](quick_start/step_2/0_import_or_new_repository.md)
+**Step 3：**[导入或设置账户](quick_start/step_3/0_import_or_new_account.md)
+**Step 4：**[导入或配置项目组](quick_start/step_4/0_import_or_setup_project.md)
 
 <br />
 
