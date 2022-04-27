@@ -53,6 +53,7 @@
     - [迭代质量](/sprint/4_sprint_quality.md)
     - [迭代进度](/sprint/5_sprint_progress.md)
   - [系统设置](/settings/0_settings_main.md)
+- [常见问题回答（FAQ）](/FAQ2022.md)
 - 发版说明
   - [v3.12.0](/release_notes/release_v3.12.0.md)
   - [v3.6.0](/release_notes/release_v3.6.0.md)
