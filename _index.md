@@ -1,46 +1,14 @@
 ---
-title: Merico 简介
-summary: 了解 Merico。
-aliaseses: ['/docs-cn/dev/']
+title: 认识思码逸
+aliases: [/, /index]
 ---
 
-<!-- markdownlint-disable MD046 -->
+# 认识思码逸
 
-# Merico 简介
+<br />
 
-[Merico](https://merico.cn) 是 [Merico](https://merico.cn/) blah... blah...
+您好！欢迎使用思码逸，我们很荣幸与您一同开始研发效能提升之旅。
 
-<NavColumns>
-<NavColumn>
-<ColumnTitle>Column 1</ColumnTitle>
+思码逸是专为软件开发团队设计的效能提升解决方案。基于代码分析与机器学习技术，思码逸从代码库中提取出代码当量、代码质量、代码复用度等多个指标，并整合为项目表现、团队表现、工程师表现、技术债监控四方面洞见，量化团队表现，提高信息透明度，辅助研发管理，全面提升团队效能。
 
-- [链接 1](/overview.md)
-- [链接 2](/overview.md)
-- [链接 3](/overview.md)
-- [链接 4](/overview.md)
-- [链接 5](/overview.md)
-
-</NavColumn>
-
-<NavColumn>
-<ColumnTitle>Column 2</ColumnTitle>
-
-- [链接 1](/overview.md)
-- [链接 2](/overview.md)
-- [链接 3](/overview.md)
-- [链接 4](/overview.md)
-- [链接 5](/overview.md)
-
-</NavColumn>
-
-<NavColumn>
-<ColumnTitle>Column 3</ColumnTitle>
-
-- [链接 1](/overview.md)
-- [链接 2](/overview.md)
-- [链接 3](/overview.md)
-- [链接 4](/overview.md)
-- [链接 5](/overview.md)
-
-</NavColumn>
-</NavColumns>
+[快速开始](quick_start/overview.md) 将在几分钟内帮助你了解如何上手使用思码逸产品。本手册也会随着产品的迭代实时更新，以帮助您最大程度挖掘思码逸产品的价值。
