@@ -29,7 +29,9 @@
     - [功能概述](/project_performance/0_projects_main.md)
     - [效率报表](/project_performance/1_efficiency_report.md)
     - [质量报表](/project_performance/2_quality_report.md)
-    - [同行对比](/project_performance/3_industry.md)
+    - [质量报表](/project_performance/3_quality_report_history.md)
+    - [同行对比](/project_performance/4_industry.md)
+    - [开发负载](/project_performance/5_development_load.md)
   - 团队表现
     - [功能概述](/team_performance/0_team_main.md)
     - [效率报表](/team_performance/1_efficiency_report.md)
@@ -38,22 +40,28 @@
     - [贡献者排行](/developer_performance/1_developer_ranking.md)
     - [贡献者列表](/developer_performance/2_developer_list.md)
     - [提交列表](/developer_performance/3_commit_list.md)
-  - 技术债监控
-    - [功能概述](/debt_monitoring/0_tech_debts_main.md)
-    - [代码问题](/debt_monitoring/0_tech_debts_main.md)
-    - [代码重复](/debt_monitoring/2_code_duplicates.md)
-    - [测试覆盖度](/debt_monitoring/3_test_coverage.md)
-    - [注释覆盖度](/debt_monitoring/4_doc_coverage.md)
-    - [函数圈复杂度](/debt_monitoring/5_func_complexity.md)
-  - 迭代表现 Beta
+  - 迭代表现
     - [功能概述](/sprint/0_sprint_main.md)
     - [设置项](/sprint/1_setup.md)
     - [工作面板](/sprint/2_sprint_dashboard.md)
     - [工作量](/sprint/3_sprint_workLoad.md)
     - [迭代质量](/sprint/4_sprint_quality.md)
     - [迭代进度](/sprint/5_sprint_progress.md)
+  - 技术债监控
+    - [功能概述](/debt_monitoring/0_tech_debts_main.md)
+    - [代码问题](/debt_monitoring/1_code_issues.md)
+    - [代码重复](/debt_monitoring/2_code_duplicates.md)
+    - [单测覆盖度](/debt_monitoring/3_test_coverage.md)
+    - [注释覆盖度](/debt_monitoring/4_doc_coverage.md)
+    - [函数圈复杂度](/debt_monitoring/5_func_complexity.md)
+  - 工具箱
+    - [日志](/tool_box/0_log.md)
+    - [展示板](/tool_box/1_display_board.md)
   - [系统设置](/settings/0_settings_main.md)
 - [常见问题回答（FAQ）](/FAQ2022.md)
 - 发版说明
+  - [v3.113.0](/release_notes/release_v3.113.0.md)
+  - [v3.109.0](/release_notes/release_v3.109.0.md)
+  - [v3.103.0](/release_notes/release_v3.103.0.md)
   - [v3.12.0](/release_notes/release_v3.12.0.md)
   - [v3.6.0](/release_notes/release_v3.6.0.md)

@@ -35,4 +35,6 @@ aliases: []
 
 ## 图示
 
-![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Complexity.png)
+![函数复杂度图示](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/266_func_complexity_01.png)
+
+<br />

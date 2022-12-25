@@ -11,11 +11,15 @@ aliases: []
 
 在项目表现版块下，可以查看如下与项目表现相关的指标和数据：
 
--   **效率报表：** 以开发当量为基础，在此界面展示了代码库/项目组/贡献者维度的开发效能指标图表。
+-   **效率报表：** 以代码当量为基础，在此界面展示了代码库/项目组/贡献者维度的研发效能指标图表。
 
--   **质量报表：** 在此界面展示了代码库/项目组/贡献者维度的如下质量指标图表：测试覆盖度、注释覆盖度、复用度、模块性、代码问题数、代码问题率、重点问题密度、质量问题分布。
+-   **质量报表：** 在此界面展示了代码库/项目组/贡献者维度的如下质量指标图表：单元测试覆盖度、注释覆盖度、代码不重复度、模块性、代码问题数、重点问题密度等数据，支持筛选指定开始日期(一年内)。
+
+-   **质量报表(历史数据)：** 数据信息同质量报表，但增加了支持筛选指定开始日期和结束日期。
 
 -   **同行对比：** 在此界面展示了用户项目（组）与开源项目的效率指标和质量指标的对比。
+
+-   **开发负载：** 在此界面展示了人均生产率趋势、贡献者帕累托、开发活动热力图，用以判断人均开发工作量的负荷程度，贡献是否均衡，以及判断资源的利用是否合理。
 
 <br />
 
@@ -25,9 +29,11 @@ aliases: []
 
 -   左侧菜单栏 **项目表现** -> 点击某个项目组或代码库 -> 进入项目表现详情界面。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project1.png)
+![进入项目表现详情界面](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/157_project_main_01.png)
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project2.png)
+项目表现详情界面
+
+![项目表现详情界面](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/158_project_main_02.png)
 
 <br />
 
@@ -35,11 +41,13 @@ aliases: []
 
 -   可以单选某个项目（组），来查看此项目（组）的指标数据。
 
--   点击 **选择项目** 图标 ![image.png](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project3.png)，在项目列表里点击需要查看数据的项目（组）即可。
+-   点击 选择项目 图标  ≡
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project4.png)
+-   在项目列表里点击需要查看数据的项目（组）即可。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project5.png)
+![进入选择项目侧边栏](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/159_project_main_03.png)
+
+![选择项目](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/160_project_main_04.png)
 
 <br />
 
@@ -47,13 +55,11 @@ aliases: []
 
 -   可以选择多个项目（组），来查看这些项目（组）的指标对比数据。
 
--   点击 **选择项目** 图标 ![image.png](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project3.png)，在项目列表里勾选需要查看数据的项目（组），勾选完毕后点击 **对比** 按钮即可。
+-   点击 选择项目 图标  ≡ 
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project4.png)
+-   在项目列表里搜索并勾选需要查看数据的项目（组），勾选完毕后点击 **对比项目** 按钮即可。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project6.png)
-
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project7.png)
+![对比项目](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/161_project_main_05.png)
 
 <br />
 
@@ -63,11 +69,9 @@ aliases: []
 
 ### 直接筛选
 
--   某项目组的 **代码库/贡献者 选择下拉列表** 中勾选需要的代码库/贡献者，筛选完毕后，点击 **查看报表** 即可查看相应的分析数据。
+-   某项目组的 **代码库/贡献者** 选择下拉列表 中勾选需要的代码库/贡献者，筛选完毕后，点击 **查看报表** 即可查看相应的分析数据。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project8.png)
-
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project9.png)
+![筛选并查看报表](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/162_project_main_06.png)
 
 <br />
 
@@ -77,13 +81,15 @@ aliases: []
 
 -   也可以在勾选完毕后，点击 **保存** 按钮，**给此组筛选条件命名并保存**。之后需要再次使用同样的筛选条件时，点击 **查看全部** 链接，打开 **项目/成员筛选条件编辑** 界面，选择之前保存的某组筛选条件并确认即可。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project10.png)
+![保存项目筛选条件](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/164_project_main_08.png)
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project11.png)
+在项目筛选条件编辑页面，保存筛选条件
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/project12.png)
+![填写筛选条件名称](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/165_project_main_09.png)
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project13.png)
+可以看到刚刚保存的筛选条件
+
+![查看保存的筛选条件](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/166_project_main_10.png)
 
 <br />
 
@@ -97,13 +103,13 @@ aliases: []
 
 -   选择好一组项目查询和筛选条件后（单个或多个项目组，代码库筛选，贡献者筛选），点击右侧 **...** 按钮下拉菜单中的 **保存报表** 选项，将此组查询作为报表命名并保存。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report.png)
+![保存报表](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/167_project_main_11.png)
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report1.png)
+![填写报表名称](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/168_project_main_12.png)
 
 -   在 **项目表现 -> 已保存报表** 处可以通过点击已保存报表的链接，进入此报表对应的查询筛选界面。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Save_Report2.png)
+![查看已保存报表](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/169_project_main_13.png)
 
 <br />
 
@@ -111,13 +117,23 @@ aliases: []
 
 -   选择好一组项目查询和筛选条件后（单个或多个项目组，代码库筛选，贡献者筛选），点击右侧 **...** 按钮下拉菜单中的 **导出报表数据** 选项，将此组查询得到的数据结果打包下载。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Data_Export.png)
+![导出报表数据](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/170_project_main_14.png)
 
- <br />
+-   导出数据时，需要填写数据文件名称，在点击 保存
 
-- 在登录账户的 **下载中心** 界面，可以下载导出的报表数据包。
+![填写导出数据名称](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/171_project_main_15.png)
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Data_Export1.png)
+-   任务创建同时，可以直接跳转到 **去下载中心** 等待数据导出完成后，直接下载
+
+![导出任务创建成功](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/172_project_main_16.png)
+
+-   也可以稍后自行前往 下载中心
+
+![前往下载中心](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/173_project_main_17.png)
+
+-   在登录账户的 下载中心 界面，可以下载导出的报表数据包。
+
+![下载中心下载报表](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/174_project_main_18.png)
 
 <br />
 
@@ -129,7 +145,7 @@ aliases: []
 
 -   在 **选择项目** 列表下方的 **搜索项目** 处，可以直接搜索项目（组）。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project14.png)
+![搜索项目（组）](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/175_project_main_19.png)
 
 <br />
 
@@ -141,9 +157,13 @@ aliases: []
 
 -   方法二：在选择了项目（组）之后，点击右侧 **关注所有项目** ，来关注当前选中的项目（组）。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star1.png)
+方法一示例：
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star2.png)
+![点击项目（组）名称右侧的小星星以关注项目](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/176_project_main_20.png)
+
+方法二示例：
+
+![点击关注所有项目以关注项目](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/177_project_main_21.png)
 
 <br />
 
@@ -155,7 +175,14 @@ aliases: []
 
 -   方法二：在选择了项目（组）之后，点击右侧 **取消关注项目**，来取消关注当前选中的项目（组）。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Star3.png)
+方法一示例：
+
+![点击项目（组）名称右侧的红色小星星以取消关注项目](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/178_project_main_22.png)
+
+方法二示例：
+
+![点击取消关注所有项目以取消关注项目](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/179_project_main_23.png)
+
 
 <br />
 
@@ -163,4 +190,6 @@ aliases: []
 
 -   单选项目（组）时，可以在 **项目表现** 顶层导航直接选择项目（组）。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Navi.png)
+![顶层导航直接选择项目（组）](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/180_project_main_24.png)
+
+<br />

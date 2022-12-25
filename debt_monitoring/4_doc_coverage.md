@@ -27,4 +27,6 @@ aliases: []
 
 ## 图示
 
-![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/DocCoverage.png)
+![注释覆盖度图示](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/265_doc_coverage_01.png)
+
+<br />

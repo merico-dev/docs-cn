@@ -1,3 +1,4 @@
+
 ---
 title: 质量报表
 aliases: []
@@ -13,17 +14,17 @@ aliases: []
 
 -   可以从 **项目（组）/ 项目对比 / 贡献者** 三个不同维度来查看质量指标报表。
 
--   可以查看**全部时间范围**的质量分析数据，也可以查看**某天至今**的代码的质量分析数据。
-
--   选择了起始日期查看某天至今的质量分析数据时，不展示 **复用度**和**模块性** 指标报表。
+-   可以查看 **全部时间范围** 的质量分析数据，也可以查看 **某天至今** 的代码的质量分析数据。
 
 <br />
 
 ## 质量报表
 
-### 测试覆盖度
+### 单元测试覆盖度
 
 被测试用例覆盖的函数占总函数个数的比例。
+
+![单元测试覆盖度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/193_quality_report_01.png)
 
 <br />
 
@@ -31,11 +32,15 @@ aliases: []
 
 有格式化注释的函数占总函数个数的比例。
 
+![注释覆盖度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/194_quality_report_02.png)
+
 <br />
 
-### 复用度
+### 代码不重复度
 
 不重复代码所占的比例。
+
+![代码不重复度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/195_quality_report_03.png)
 
 <br />
 
@@ -43,36 +48,23 @@ aliases: []
 
 反映代码划分出高内聚、松耦合的模块的难易程度，基于代码调用-提交图的最优划分计算。
 
+![模块性](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/196_quality_report_04.png)
+
 <br />
 
 ### 代码问题数
 
 各严重程度的问题的数量。
 
-<br />
-
-### 代码问题率
-
-质量问题率由问题数量除以函数数量计算得出的。为方便观察，对各类问题进行了不同的权重分配，其中阻塞的权重为 1、严重的权重为 0.5、主要的权重为 0.1、次要的权重为 0.02、提示的权重为 0.004。
+![代码问题数](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/197_quality_report_05.png)
 
 <br />
 
 ### 重点问题密度
 
-重点问题密度由选定时间段内的重点问题数除以开发当量计算得出，重点问题包括阻塞问题和严重问题。
+重点问题密度由选定时间段内的重点问题数除以代码当量计算得出，重点问题包括阻塞问题和严重问题。
+
+![重点问题密度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/198_quality_report_06.png)
 
 <br />
 
-### 代码问题分布
-
-质量问题在不同贡献者/代码库/项目组的分布数量。
-
-<br />
-
-## 图示
-
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/QA1.png)
-
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/QA2.png)
-
-<br />

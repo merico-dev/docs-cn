@@ -29,4 +29,6 @@ aliases: []
 
 ## 图示
 
-![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/Duplicates.png)
+![代码重复图示](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/263_code_duplicates_01.png)
+
+<br />

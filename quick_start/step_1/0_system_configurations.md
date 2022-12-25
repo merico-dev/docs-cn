@@ -11,7 +11,7 @@ aliases: []
 
 - 完成基础的系统设置后，即可新增或导入代码库来进行数据分析。
 
-- 系统设置中，包含：基础设置、自定义字段设置、SMTP 设置、登录鉴权设置、LDAP 设置、周日报配置、专家系统开关、安全性设置。
+- 系统设置中，包含：基础设置、自定义字段设置、SMTP 设置、登录鉴权设置、LDAP 设置、周日报配置、专家系统设置、设置提交类别、注释覆盖度计算规则。
 
 <br />
 
@@ -19,7 +19,9 @@ aliases: []
 
 **设置 > 系统设置**
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/20220226104354.png)
+![设置](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/11_system_settings_01.png)
+
+![系统设置](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/12_system_settings_02.png)
 
 <br />
 
@@ -27,27 +29,29 @@ aliases: []
 
 通过基础设置，设定系统运行所必须的基本参数。点击 **基础设置** 版块处的 **应用** 按钮，保存基础设置信息。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Basic_Settings.png)
+![基础设置](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/13_basic_setting_01.png)
 
-### -站点地址
+### 站点地址
 
-当前系统站点地址，以“/”结尾。
+当前系统站点地址，以“/”结尾，与当前访问的地址一致。
+如果两者不一致，可能会出现问题：
 
-### -系统时区
+![站点地址](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/14_basic_setting_02.png)
 
-周报/日报邮件发送时间和系统设置时区一致。
+### 系统时区
+中国大陆一般设置为当前所在时区UTC+8，周报/日报邮件发送时间和系统设置时区一致。
 
-### -工作日
-
+### 工作日
 周报中的统计数据，只统计工作日相关数据，不包含非工作日数据。
 
-### -启用站内通知
-
+### 启用站内通知
 勾选此选项时，会按照【通知设置】中的设置规则给相关账户发送站内通知。
 
 <br />
 
 ## 自定义字段
+
+### 概述
 
 配置自定义字段，并且给团队成员账户赋予自定义字段中的值，即可在【团队表现】中使用该自定义字段值进行筛选，汇总数据。
 
@@ -55,11 +59,39 @@ aliases: []
 
 完成自定义字段设置后，点击此版块的 **应用** 按钮，保存此处设置。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Custom_Fields.png)
+### 示例
+
+#### 配置自定义字段
+
+![配置自定义字段](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/15_custom_fields_01.png)
+
+#### 账户设置中应用
+
+自定义字段，亦即支持客户定制自己想要的字段，因此示例内容仅供参考
+
+自定义字段-岗级
+
+![自定义字段‑岗级](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/16_custom_fields_02.png)
+
+自定义字段-职级
+
+![自定义字段-职级](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/17_custom_fields_03.png)
+
+自定义字段-Location
+
+![自定义字段-Location](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/18_custom_fields_04.png)
+
+#### 团队表现中应用
+
+【团队表现】>【效率报表】
+
+![【团队表现】>【效率报表】应用自定义字段](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/19_custom_fields_05.png)
 
 <br />
 
 ## SMTP 设置
+
+### 概述
 
 配置系统发件邮箱、发件邮箱密码、SMTP 服务器地址信息，通过 SMTP 服务器发送邮件，如成员账户信息、修改密码信息、周报/日报邮件。
 
@@ -67,71 +99,143 @@ aliases: []
 
 点击 **SMTP 设置** 版块处的 **应用** 按钮，保存发件设置信息。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/SMTP.png)
+### 示例
+
+例如，我们设置一个163邮箱，作为发件邮箱
+
+![SMTP设置示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/21_SMTP_setting_02.png)
+
+163邮箱设置示例
+
+![163邮箱设置示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/22_SMTP_setting_03.png)
+
+### 备注
+
+1. 其他公网邮箱可以参考163邮箱配置
+
+2. 客户私有部署的邮箱服务，请联系您部署邮箱服务的运维同事确认SMTP服务器地址及使用邮箱密码还是第三方授权密码
 
 <br />
 
 ## 登录鉴权
 
+### 概述
+
 通过配置基于 OAuth2.0 的参数项，用户可以凭借在其他平台的账号，通过授权的方式一键登录思码逸系统。
 
 点击 **登录鉴权** 版块处的 **应用** 按钮，保存登录鉴权信息。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/OAuth.png)
+登录鉴权分为简易模式和完整模式
+
+简易模式：
+
+1、默认为简易模式，填写三个必填项，然后可以点击应用生效。
+
+完整模式
+
+1、点击下箭头可以进入完整配置模式。再次点击可收起。
+
+### 示例
+
+简易模式
+
+![简易模式](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/23_auth_sso_01.png)
+
+完整模式
+
+![完整模式](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/24_auth_sso_02.png)
 
 <br />
 
 ## LDAP 设置
 
-通过设置 LDAP 参数，可以接入企业内部的 LDAP 服务器，实现单点登录。
+### 概述
+
+通过设置 LDAP 参数，可以接入企业内部的 LDAP 服务器，实现单点登录。如需了解LDAP参数含义，请参照如下RFC：
+
+https://tools.ietf.org/html/rfc4512#section-2.3.2
+
+https://tools.ietf.org/html/rfc4511#section-4.5.1
 
 点击 **LDAP 设置** 版块处的 **应用** 按钮，保存 LDAP 设置信息。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/LDAP.png)
+LDAP有两种模式，默认为管理员认证模式，所有必填字段有值就可以进行应用或测试
 
-<br />
+1）管理员认证模式：此时有5个必填字段（页面标 * 的为必填）
 
-### -LDAP 地址
+2）非管理员认证模式：此时有2个必填字段（页面标 * 的为必填）
+
+### LDAP 服务地址
 
 LDAP 服务器地址
 
-### -Bind DN
+### Bind DN 连接 LDAP 服务的用户
+
+管理员认证模式专有
 
 绑定 DN 信息：用户名，域名
 
-### -Bind Credentials
+### Bind Credentials 连接 LDAP 服务的密码
 
 绑定密码
 
-### -CA Certificate
-
-CA 认证信息
-
-### -Search Base
+### Search Base 搜索登录用户的根路径
 
 LDAP 服务器域名信息
 
-### -Search Filter
+### Search Filter 匹配登录用户的搜索条件
 
 LDAP 服务器用户名查找定位
 
-### -Email attribute
+集成Windows AD的登录时，设置为： (&(objectCategory=Person)(sAMAccountName={{username}}))
 
-Email 属性信息
+### CA Certificate 验证LDAP服务期的证书
+
+CA 认证信息
+
+### User DN Pattern 连接 LDAP 服务的用户
+
+非管理员认证模式专有
+
+## 示例
+
+管理员认证模式:
+
+![管理员认证模式](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/25_ldap_setting_01.png)
+
+非管理员认证模式:
+
+![非管理员认证模式](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/26_ldap_setting_02.png)
+
+### 测试模式
+
+点击 **应用** 按钮旁边的 **测试** 按钮，可以进入测试模式
+
+![测试通过示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/27_ldap_setting_03.png)
+
+![测试不通过示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/28_ldap_setting_04.png)
+
+测试条件：用户需要填写所有必填项后才可以进行测试
+
+测试界面：点击测试后弹出测试框。需要用户用户填入真实登录账号进行测试。左侧为输入区，右侧为信息区。
+
+测试结果：登录成功返回测试通过。登录不成功返回测试不通过，同时返回错误信息。
 
 <br />
 
 ## 周日报配置
 
+### 概述
+
 可以设置全部代码库定时自动分析时间，分析数据可以以周报或日报的的形式发送，报告类型、接收范围、发送时间都可以灵活配置。
 
 点击 **周日报配置** 版块处的 **应用** 按钮，保存周日报配置信息。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Reports_Settings.png)
+### 周日报说明
 
-<br />
+系统支持把分析的周期性结果通过邮件发送，配置接收类型，范围以及接收时间后生效。
 
-### -管理者报告
+### 管理者报告
 
 管理者报告内容主要为研发情况数据汇总和概况总览。为了保证信息安全，报告接收者只会收到其有权限访问的项目数据汇总。
 
@@ -139,9 +243,9 @@ Email 属性信息
 
 请注意，选择日报时，分析引擎会每日启动分析，需要确认资源足够支持在当天完成分析。
 
-<br />
+周/日报的报告都可以预览，点击新打开一个窗口，可以打开报告的设计稿。
 
-### -开发者报告
+### 开发者报告
 
 开发者报告内容主要为程序员个人工作汇总。
 
@@ -149,34 +253,141 @@ Email 属性信息
 
 请注意，选择日报时，分析引擎会每日启动分析，需要确认资源足够支持在当天完成分析。
 
-<br />
+周/日报的报告都可以预览，点击新打开一个窗口，可以打开报告的设计稿。
 
-### -报告发送时间
+### 报告发送时间
 
-报告发送时间可以选择 **快速配置** 和 **高级配置** 两种模式进行配置。选择 **快速配置** 模式时，仅需选择周报和日报发送时间，系统会根据报告发送时间相应调整全部代码库定时启动分析时间。选择 **高级配置** 模式时，可以使用 **Cron 表达式** 精细配置不同报告发送时间和全部代码库定时启动分析时间。
+报告发送时间可以选择 **快速配置** 和 **高级配置** 两种模式进行配置。
+
+选择 **快速配置** 模式时，仅需选择周报和日报发送时间，系统会根据报告发送时间相应调整全部代码库定时启动分析时间。
+快速配置规则下：
+
+1. 只配置发送时间，其中日报要遵循工作日规则，非工作日不发送。
+
+2. 周报的运行时间为发送时间的前24小时，内容为发送时间往前的7个工作日。
+
+3. 日报的运行时间为发送时间的前12个小时，内容为发送时间往前的1个工作日。
+
+4. 发送时间按照系统时间统一发送
+
+选择 **高级配置** 模式时，可以使用 **Cron 表达式** 精细配置不同报告发送时间和全部代码库定时启动分析时间。
 
 **系统维护窗口：** 系统维护将在指定的时间窗口期每日自动进行，清理过期报告和已删除的代码库数据。维护完成后将显著缩短数据加载时间。整个维护过程大约持续 2 小时，在维护窗口期内系统响应速度可能会有所下降，请根据实际情况设置合理的系统维护时间。
 
 **重新计算时间：** 当调整了问题忽略规则设置后，需要重新统计相关质量问题数据。此处设置用于设置在每天系统维护时（上一条系统维护窗口设置时间），花多长时间重新生成质量数据统计。为 0 时关闭本功能，为 5 小时时，每天花 5 小时重新生成质量数据统计。
 
-<br />
+### 配置说明
 
-### -启用在职人员白名单
+1. 在【**快速配置**】模式下，可以配置每周周报发送时间和日报发送时间。
+
+2. 如配置了周报发送时间，会在此时间前24小时触发全部代码库重新分析；
+
+3. 如配置了日报发送时间，会在此时间前12小时触发全部代码库重新分析。
+
+4. 周报内容为发送时间前7天（不包含发送当天）内的代码分析结果；
+
+5. 日报内容为发送时间前一个工作日内的代码分析结果。
+
+6. 如果周/日报发送时还有代码库分析未完成，会造成周日报数据不准确。
+
+7. 如需自定义代码库定时启动分析时间和周/日报发送时间，请切换至【高级配置】模式进行配置。
+
+### 启用在职人员白名单
 
 勾选白名单选项，报告数据中仅包含在职人员，不包含已离职人员数据。
+
+## 示例
+
+### 快速配置
+
+下图示例中，周报每周日0点发送
+
+下图示例中，日报每个工作日12点发送
+
+![快速配置示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/29_weekly_daily_config_01.png)
+
+
+### 高级配置
+
+下图示例中，周报在每个周日0点发送
+
+周报涉及代码库定时分析，每个周六0点启动
+
+下图示例中，日报每个工作日（周一到周五）12点发送
+
+日报涉及代码库定时分析
+
+周一0点启动，周一12点发送周五的工作日报告
+
+周二0点启动，周二12点发送周一的工作日报告
+
+周三0点启动，周三12点发送周二的工作日报告
+
+周四0点启动，周四12点发送周三的工作日报告
+
+周五0点启动，周五12点发送周四的工作日报告
+
+![高级配置示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/30_weekly_daily_config_02.png)
 
 <br />
 
 ## 专家系统
 
-勾选是否打开专家系统功能，打开此功能开关后，在 **项目表现、团队表现** 等模块会对数据表现给出分析和建议。
+### 概述
+
+勾选是否打开专家系统功能，打开此功能开关后，在 **项目表现** 的 **效率报表**、**质量报表**、**开发负载** 等模块会对数据表现给出分析和建议。
+
+### 示例
+
+#### 设置示例
+
+![专家系统设置示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/31_export_system_01.png)
+
+#### 专家系统应用
+
+![专家系统应用示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/32_export_system_02.png)
 
 <br />
 
-## 安全性
+## 设置提交类别
 
-选择代码预览模式，控制产品里各代码展示模块里可见代码范围。
+### 概述
+
+在代码提交规范化的前提下，设置提交类别，可查看不同提交类别对应的当量数据。
+
+设置导航：**设置-系统设置-设置提交类别**
+
+### 设置示例
+
+![设置提交类别示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/33_set_submission_category_01.png)
+
+### 使用示例
+
+在 **项目表现-->效率报表** 界面，可以点击选择-->**按提交类别查看**
+
+![提交类别使用示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/34_set_submission_category_02.png)
+
+按提交类别查看到的页面及数据
+
+![按提交类别查看到的页面及数据](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/35_set_submission_category_03.png)
 
 <br />
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Expert_Security.png)
+## 注释覆盖度计算规则
+
+### 概述
+
+计算注释覆盖度时，是否需要计算匿名函数
+
+计算注释覆盖度时，包含匿名函数
+
+计算注释覆盖度时，排除匿名函数
+
+设置导航：**设置-系统设置-注释覆盖度计算规则**
+
+### 设置示例
+
+![注释覆盖度计算规则设置示例](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/36_annotation_coverage_cal_01.png)
+
+<br />
+

@@ -12,6 +12,7 @@ aliases: []
 -   **操作需要权限：** 操作账户有以下两种权限皆可：
 
     1. 思码逸系统 **超级管理员** 权限。
+
     2. 有进入 **项目设置** 界面的角色权限，并拥有此项目组或更高层级项目组的访问权限。
 
 -   **可进行操作**：新增子项目组 / 编辑项目组 / 移动项目组 / 删除项目组 / 移动代码库 / 删除代码库 / 选择用户 / 选择团队 。
@@ -26,7 +27,7 @@ aliases: []
 
 菜单 **设置** -> 左侧菜单栏 **项目设置**
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup1.jpg)
+![项目设置](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/136_project_management_01.png)
 
 <br />
 
@@ -34,46 +35,62 @@ aliases: []
 
 **Step 0：** 点击某一项目组右侧 **更多** 下拉菜单。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup2.png)
+![项目组管理操作](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/137_project_management_02.png)
 
 <br />
 
-### 1. 新增子项目组
+### 新增子项目组
 
 -   点击 **更多** 下拉菜单中的 **新增子项目组**，进入 **添加项目** 界面。输入新增子项目组名称、描述，点击 **确定** 按钮。弹出 **操作成功** 提示，在该父级项目组下找到此新增子项目组。
 
 -   也可通过点击 右上角 **新增项目组** 按钮，直接快速在顶级父项目组下新增子项目组。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup3.png)
+![新增子项目组](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/138_project_management_03.png)
 
 <br />
 
-### 2. 编辑项目组
+### 编辑项目组
 
 点击 **更多** 下拉菜单中的 **编辑项目组**，进入 **修改项目** 界面，修改项目名称、描述，点击 **确定** 按钮。
 
 弹出 **操作成功** 提示，发现项目组名称和描述修改成功。
 
+![进入编辑项目组](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/139_project_management_04.png)
+
+![编辑项目组](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/140_project_management_05.png)
+
 <br />
 
-### 3. 移动项目组
+### 移动项目组
 
 点击 **更多** 下拉菜单中的 **移动项目组**，弹出 **移动代码库和项目组** 界面，选择要移动至的项目组，点击 **确定** 按钮。
 
 弹出 **操作成功** 提示，发现项目组移动成功。
 
+![进入移动项目组](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/141_project_management_06.png)
+
+![移动项目组](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/142_project_management_07.png)
+
 <br />
 
-### 4. 删除项目组
+### 删除项目组
 
 点击 **更多** 下拉菜单中的 **删除项目组**，弹出 **确认删除项目组或代码库** 界面，选择要删除的项目组，输入项目组名进行确认，点击 **确定** 按钮。
 
 弹出 **操作成功** 提示，发现项目组删除成功。
 
+![进入删除项目组](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/143_project_management_08.png)
+
+![删除项目组](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/144_project_management_09.png)
+
 <br />
 
-### 5. 批量操作-移动/删除
+### 批量操作-移动/删除
 
 勾选 **批量操作**，多选数个 **项目组/代码库**，可批量进行 **移动/删除** 操作。
 
-![无替代文本](https://release-note.oss-cn-hongkong.aliyuncs.com/img/Project_setup4.png)
+![点击批量操作](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/145_project_management_10.png)
+
+![批量操作项目](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/146_project_management_11.png)
+
+<br />

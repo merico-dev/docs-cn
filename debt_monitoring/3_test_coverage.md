@@ -1,9 +1,9 @@
 ---
-title: 测试覆盖度
+title: 单测覆盖度
 aliases: []
 ---
 
-# 测试覆盖度
+# 单测覆盖度
 
 <br />
 
@@ -17,7 +17,7 @@ aliases: []
 
 ## 界面介绍
 
--   **测试覆盖度：** 被测试用例覆盖的函数占总函数个数的比例。
+-   **单测覆盖度：** 被测试用例覆盖的函数占总函数个数的比例。
 
 -   **未覆盖的函数：** 未被测试覆盖的函数。
 
@@ -27,4 +27,6 @@ aliases: []
 
 ## 图示
 
-![无替代文本](https://release-notes.oss-cn-zhangjiakou.aliyuncs.com/img/TestCoverage.png)
+![单测覆盖度图示](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/264_test_coverage_01.png)
+
+<br />
