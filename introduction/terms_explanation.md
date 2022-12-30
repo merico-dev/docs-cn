@@ -253,7 +253,7 @@ function seek(input) {
 
 <br />
 
-## 代码不重复度 DRYness
+## 代码不重复度 Dryness
 
 ### 指标概述
 
@@ -360,7 +360,7 @@ def test_my_add():
 
 <br />
 
-## 注释覆盖度 Doc-Coverage
+## 注释覆盖度 Documentation Coverage
 
 ### 指标概述
 
