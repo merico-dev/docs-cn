@@ -1,4 +1,3 @@
-
 ---
 title: 质量报表
 aliases: []
