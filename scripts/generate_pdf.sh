@@ -26,8 +26,8 @@ pandoc -N --toc --smart --latex-engine=xelatex \
 --template=templates/template.tex \
 --listings \
 --columns=80 \
--V title="Merico 中文手册" \
--V author="Merico" \
+-V title="思码逸深度代码分析系统 3.116 版本 产品说明手册" \
+-V author="思码逸" \
 -V date="${_version_tag}" \
 -V CJKmainfont="${MAINFONT}" \
 -V mainfont="${MAINFONT}" \
