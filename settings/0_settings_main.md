@@ -105,6 +105,25 @@ aliases: []
 
 此界面中包括 Open API 相关设置信息和最新 Open API 文档。
 
+-   API配置：点击 **API配置** 中的 **生成** 按钮，可以创建适配此账户角色权限的 appid 和 appsecret。
+
+-   推送事件：
+
+    -   Openapi 中增加 web hook 相关设置。
+
+    -   配置后，会在分析成功或失败时，给指定地址用 post 方法发送以下数据：
+
+        -   { event: 'analysisComplete', projectId: 'xxxx' }
+
+        -   event 可为 analysisComplete 或 analysisFailure
+
+    -   可以配置所有事件都发送此消息，或者只有 openapi 发起的请求会发送此消息.
+
+-   OpenAPI 文档：点击 **查看文档** 可以打开openapi/docs后缀的OpenApi文档。
+
+![OpenApi设置](https://release-note.oss-cn-hongkong.aliyuncs.com/2023_v1/288_setting_main_02.png)
+
+
 <br />
 
 ## 关于系统
