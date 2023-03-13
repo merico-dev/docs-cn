@@ -113,7 +113,9 @@ aliases: []
 
     -   配置后，会在分析成功或失败时，给指定地址用 post 方法发送以下数据：
 
-        -   { event: 'analysisComplete', projectId: 'xxxx' }
+        -   { event: 'analysisComplete'/'analysisFailure', projectId: 'xxxx' }
+
+        -   在EE版本大于3.117.0(包含)时，推送内容会增加name(代码库名称)和errorMessage(代码库分析失败的异常信息)，实际推送内容形如{ event: 'analysisComplete'/'analysisFailure', projectId: 'xxxx', name: 'yyyy', errorMessage: 'zzzz' }
 
         -   event 可为 analysisComplete 或 analysisFailure
 
