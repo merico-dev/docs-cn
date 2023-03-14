@@ -29,7 +29,7 @@
     - [功能概述](/project_performance/0_projects_main.md)
     - [效率报表](/project_performance/1_efficiency_report.md)
     - [质量报表](/project_performance/2_quality_report.md)
-    - [质量报表](/project_performance/3_quality_report_history.md)
+    - [质量报表(历史数据)](/project_performance/3_quality_report_history.md)
     - [同行对比](/project_performance/4_industry.md)
     - [开发负载](/project_performance/5_development_load.md)
   - 团队表现
