@@ -55,19 +55,19 @@ aliases: []
 
 -   可以切换到**表模式**来查看具体的代码当量新增数据。点击**下载**按钮可以下载数据表。
 
-==_单个项目（组）维度_==
+_单个项目（组）维度_
 
 ![新增当量趋势 - 单个项目（组）维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/181_efficiency_report_01.png)
 
 <br />
 
-==_多个项目（组）对比维度_==
+_多个项目（组）对比维度_
 
 ![新增当量趋势 - 多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/182_efficiency_report_02.png)
 
 <br />
 
-==_单个项目（组）的贡献者维度_==
+_单个项目（组）的贡献者维度_
 
 ![新增当量趋势 - 单个项目（组）的贡献者维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/183_efficiency_report_03.png)
 
@@ -87,13 +87,13 @@ aliases: []
 
 -   可以切换到**表模式**来查看具体的人均当量趋势数据。点击**下载**按钮可以下载数据表。
 
-==_单个项目（组）维度_==
+_单个项目（组）维度_
 
 ![人均当量趋势 - 单个项目（组）维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/184_efficiency_report_04.png)
 
 <br />
 
-==_多个项目（组）对比维度_==
+_多个项目（组）对比维度_
 
 ![人均当量趋势 - 多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/185_efficiency_report_05.png)
 
@@ -101,13 +101,13 @@ aliases: []
 
 ### 人均生产率排行
 
--   此图表展示所选时间范围内，所选的项目（组）的每步长（日/周/月）人均代码当量的 ==**平均值**== 的横向柱状图。按每个项目（组）数据从大到小，从上到下排列。人员数量（分母）为所选时间范围、每步长内有提交的贡献者人数。
+-   此图表展示所选时间范围内，所选的项目（组）的每步长（日/周/月）人均代码当量的 **平均值** 的横向柱状图。按每个项目（组）数据从大到小，从上到下排列。人员数量（分母）为所选时间范围、每步长内有提交的贡献者人数。
 
 -   其中红色的平均值柱子为所选的所有项目（组）的**蓝色数据**的平均值，通过与平均值平齐的垂直虚线可以观察在此数据上超过或低于平均值的项目（组）。
 
 -   可以切换到**表模式**来查看具体的人均当量平均值数据。点击**下载**按钮可以下载数据表。
 
-==_**仅**多个项目（组）对比维度_==
+_**仅**多个项目（组）对比维度_
 
 ![人均生产率排行 - **仅**多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/186_efficiency_report_06.png)
 
@@ -119,13 +119,13 @@ aliases: []
 
 -   可以切换到**表模式**来查看具体的代码当量数据。点击**下载**按钮可以下载数据表。
 
-==_多个项目（组）对比维度_==
+_多个项目（组）对比维度_
 
 ![当量占比 - 多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/187_efficiency_report_07.png)
 
 <br />
 
-==_单个项目（组）的贡献者维度_==
+_单个项目（组）的贡献者维度_
 
 ![当量占比 - 单个项目（组）的贡献者维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/188_efficiency_report_08.png)
 
@@ -153,11 +153,11 @@ aliases: []
 
 4. **异常点观察：** 观察有无低异常点和高异常点。
 
-==_单个项目（组）对比维度_==
+_单个项目（组）对比维度_
 
 ![效率箱线图 - 单个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/189_efficiency_report_09.png)
 
-==_多个项目（组）对比维度_==
+_多个项目（组）对比维度_
 
 ![效率箱线图 - 多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/190_efficiency_report_10.png)
 
@@ -183,7 +183,7 @@ aliases: []
 
 -   参考多数项目的分析结果，通常 2 周步长是一个比较稳定的数据单位，可以用作项目过程中的判稳。
 
-==_**仅**多个项目（组）对比维度_==
+_**仅**多个项目（组）对比维度_
 
 ![效率与稳定性 - **仅**多个项目（组）对比维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/191_efficiency_report_11.png)
 
@@ -207,7 +207,7 @@ aliases: []
 
 -   看帕累托折线的陡峭/平缓程度，如果是很平缓的一条曲线，说明各贡献者相互之间的数据区别不大，如果折线变化比较陡峭，说明有比较大的差异。
 
-==_**仅**单个项目（组）的贡献者维度_==
+_**仅**单个项目（组）的贡献者维度_
 
 ![代码当量帕累托图 - **仅**单个项目（组）的贡献者维度](https://release-note.oss-cn-hongkong.aliyuncs.com/2022_v2/192_efficiency_report_12.png)
 

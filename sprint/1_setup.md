@@ -110,7 +110,7 @@ aliases: []
 
 在分析中，为了获得代码与 JIRA 事务的关联，需要记录提交信息与 JIRA 事务的关联关系。此数据关联关系的建立有以下几个注意事项：
 
-==1. 建立数据的联系。**[Requried]**==
+1. 建立数据的联系。**[Requried]**
 
 -   代码提交时需要在 **Commit Message** 里记录对应的 **Jira Issue Key**，按照 commit message 里的 JIRA Issue Key 建立提交和 JIRA 事务之间的关联。
 
@@ -129,7 +129,7 @@ ISSUE-0002
 
 <br />
 
-==2. 将数据的关联关系记录在 JIRA 系统中 **[Recommond]**==
+2. 将数据的关联关系记录在 JIRA 系统中 **[Recommond]**
 
 -   需要在 **GitLab**上配置 **JIRA** 集成信息。
 
