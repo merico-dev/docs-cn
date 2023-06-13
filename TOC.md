@@ -60,6 +60,7 @@
   - [系统设置](/settings/0_settings_main.md)
 - [常见问题回答（FAQ）](/FAQ2022.md)
 - 发版说明
+  - [v3.121.0](/release_notes/release_notes_v3.121.0.md)
   - [v3.113.0](/release_notes/release_v3.113.0.md)
   - [v3.109.0](/release_notes/release_v3.109.0.md)
   - [v3.103.0](/release_notes/release_v3.103.0.md)
