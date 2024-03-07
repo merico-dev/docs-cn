@@ -1,6 +1,6 @@
 ---
 title: 快速开始！
-aliases: /quick_start/overview
+aliases: [/quick_start/overview]
 ---
 
 # 快速开始！
