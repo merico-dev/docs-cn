@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD007 -->
 <!-- markdownlint-disable MD041 -->
 <!-- markdownlint-disable -->
+<!-- 发版说明会自动更新，请勿手动修改（包括发版说明的注释行） -->
 
 - [关于思码逸](/introduction/what_is_merico.md)
 - [技术原理/术语解释](/introduction/terms_explanation.md)
@@ -60,6 +61,7 @@
   - [系统设置](/settings/0_settings_main.md)
 - [常见问题回答（FAQ）](/FAQ2022.md)
 - 发版说明
+  <!-- 发版说明开始 -->
   - [v3.141.5](/release_notes/release_notes_v3.141.5.md)
   - [v3.138.0](/release_notes/release_notes_v3.138.0.md)
   - [v3.135.1](/release_notes/release_notes_v3.135.1.md)
@@ -72,3 +74,4 @@
   - [v3.103.0](/release_notes/release_v3.103.0.md)
   - [v3.12.0](/release_notes/release_v3.12.0.md)
   - [v3.6.0](/release_notes/release_v3.6.0.md)
+  <!-- 发版说明结束 -->
