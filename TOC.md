@@ -62,16 +62,6 @@
 - [常见问题回答（FAQ）](/FAQ2022.md)
 - 发版说明
   <!-- 发版说明开始 -->
-  - [v3.141.5](/release_notes/release_notes_v3.141.5.md)
-  - [v3.138.0](/release_notes/release_notes_v3.138.0.md)
-  - [v3.135.1](/release_notes/release_notes_v3.135.1.md)
-  - [v3.127.3](/release_notes/release_notes_v3.127.3.md)
-  - [v3.125.3](/release_notes/release_notes_v3.125.3.md)
-  - [v3.125.1](/release_notes/release_notes_v3.125.1.md)
-  - [v3.121.0](/release_notes/release_notes_v3.121.0.md)
-  - [v3.113.0](/release_notes/release_v3.113.0.md)
-  - [v3.109.0](/release_notes/release_v3.109.0.md)
-  - [v3.103.0](/release_notes/release_v3.103.0.md)
-  - [v3.12.0](/release_notes/release_v3.12.0.md)
-  - [v3.6.0](/release_notes/release_v3.6.0.md)
+  - [v3.160.2](release_notes/v3.160.2.md)
+  - [v3.160.3](release_notes/v3.160.3.md)
   <!-- 发版说明结束 -->
