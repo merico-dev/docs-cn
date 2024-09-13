@@ -1,0 +1,32 @@
+name: Auto merge PR
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  auto-merge:
+    if: contains(github.event.pull_request.labels.*.name, 'auto_merge')
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: 安装 GitHub CLI
+      - name: Install github cli
+        run: |
+          sudo apt-get update
+          sudo apt-get install gh -y
+
+      # Step 2: 检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          ref: master
+
+      # Step 3: 检查 PR 标签并自动合并
+      - name: Auto merge pr
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} --auto --merge
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_SCOPED_TOKEN }}
