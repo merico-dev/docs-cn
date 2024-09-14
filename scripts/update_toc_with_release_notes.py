@@ -25,7 +25,7 @@ for file in all_release_notes_files:
         semver_invalid_release_notes_files.append(file)
 
 # 对符合 semver 格式的文件名列表按照语义化版本排序
-semver_valid_release_notes_files.sort(key=lambda f: semver.VersionInfo.parse(f.replace('.md', '').lstrip('v')))
+semver_valid_release_notes_files.sort(key=lambda f: semver.VersionInfo.parse(f.replace('.md', '').lstrip('v')), reverse=True)
 
 # 合并发版说明文件列表
 release_notes_files = semver_valid_release_notes_files + semver_invalid_release_notes_files
