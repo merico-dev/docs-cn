@@ -2,7 +2,7 @@ name: Update release notes from feishu
 
 on:
   schedule:
-    # 每天凌晨1点（北京时间）运行
+    # 每天凌晨 1 点（北京时间）运行
     - cron: "0 17 * * *"
 
   # 添加 workflow_dispatch 以允许手动触发
@@ -72,6 +72,9 @@ jobs:
             if [ -f "$file" ]; then
               # 去除文档内容的前两行（feishu 那边的发版文档已经约定好了格式）
               sed -i '1,2d' "$file"
+
+              # 删除“## 内部信息”行及其后的所有内容（feishu 那边的发版文档已经约定好了格式）
+              sed -i '/^## 内部信息$/,$d' "$file"
 
               # 替换图片地址为新的阿里云 oss 图片地址
               sed -i -E "s|\!\[(.*?)\]\(static/(.*?)\)|\!\[\1\]($NEW_STATIC_PATH\2)|g" "$file"
