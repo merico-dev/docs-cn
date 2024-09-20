@@ -31,7 +31,7 @@ semver_valid_release_notes_files.sort(key=lambda f: semver.VersionInfo.parse(f.r
 release_notes_files = semver_valid_release_notes_files + semver_invalid_release_notes_files
 
 # 构建发版说明的 markdown 链接列表
-release_notes_links = '\n'.join([f"- [{file.replace('.md', '')}]({release_notes_dir}/{file})" for file in release_notes_files])
+release_notes_links = '\n'.join([f"- [{file.replace('.md', '')}](/{release_notes_dir}/{file})" for file in release_notes_files])
 
 # 读取 toc 内容
 with open(toc_path, 'r', encoding='utf-8') as toc_file:

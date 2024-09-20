@@ -36,7 +36,7 @@ with open(entry_file) as fp:
     for line in fp:
         if not in_toc and not line.startswith("<!-- "):
             in_toc = True
-        elif in_toc and not line.startswith('#') and line.strip():
+        elif in_toc and not line.startswith('#') and line.strip() and not line.lstrip().startswith("<!--"):
             ## get level from space length
             level_space_str = level_pattern.findall(line)[0][:-1]
             level = len(level_space_str) // 2 + 1 ## python divide get integer
