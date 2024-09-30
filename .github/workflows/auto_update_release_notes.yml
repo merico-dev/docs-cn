@@ -34,6 +34,9 @@ jobs:
       # Step 3: 配置 feishu2md
       - name: Configure feishu2md
         run: |
+          # 查看 feishu2md 版本
+          ./bin/feishu2md --version
+
           # 生成 feishu2md 配置文件
           ./bin/feishu2md config --appId ${{ secrets.FEISHU_APP_ID }} --appSecret ${{ secrets.FEISHU_APP_SECRET }}
 
