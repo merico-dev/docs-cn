@@ -69,4 +69,5 @@
   - [v3.160.4](/release_notes/v3.160.4.md)
   - [v3.160.3](/release_notes/v3.160.3.md)
   - [v3.160.2](/release_notes/v3.160.2.md)
+  - [v3.6.0](/release_notes/v3.6.0.md)
   <!-- 发版说明结束 -->
