@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+          lfs: true
           ref: master
 
       # Step 2: 给 feishu2md、jq、ossutil 可执行文件权限
