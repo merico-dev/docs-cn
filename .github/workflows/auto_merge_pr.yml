@@ -2,11 +2,12 @@ name: Auto merge PR
 
 on:
   pull_request:
-    types: [labeled]
+    branches:
+      - master
 
 jobs:
   auto-merge:
-    if: ${{ github.event.label.name == 'auto_merge' }}
+    if: contains(toJson(github.event.pull_request.labels.*.name), 'auto_merge')
     runs-on: ubuntu-latest
 
     steps:
