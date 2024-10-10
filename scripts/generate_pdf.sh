@@ -14,13 +14,13 @@ MONOFONT="Menlo"
 #_version_tag="$(date '+%Y%m%d').$(git rev-parse --short HEAD)"
 _version_tag="$(date '+%Y%m%d')"
 
-# default version: `pandoc --latex-engine=xelatex doc.md -s -o output2.pdf`
+# default version: `pandoc --latex-engine=xelatex doc.md -s -o output.pdf`
 # used to debug template setting error
 
 # add docs versions
 # generate PDF for dev version
 
-output_path="output.pdf"
+output_path="Merico_EE_guideline.pdf"
 
 pandoc -N --toc --smart --latex-engine=xelatex \
 --template=templates/template.tex \
@@ -35,4 +35,4 @@ pandoc -N --toc --smart --latex-engine=xelatex \
 -V monofont="${MONOFONT}" \
 -V geometry:margin=1in \
 -V include-after="\\input{templates/copyright.tex}" \
-"doc.md" -s -o "output.pdf"
+"doc.md" -s -o "Merico_EE_guideline.pdf"
