@@ -28,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          chmod +x ./scripts/install-tinytex-bin-unix.sh
-          ./scripts/install-tinytex-bin-unix.sh
+          chmod +x ./scripts/install_tinytex_bin_unix.sh
+          ./scripts/install_tinytex_bin_unix.sh
         env:
           TINYTEX_INSTALLER: "TinyTeX-2"
 
@@ -57,13 +57,13 @@ jobs:
       # Step 7: 根据 toc 将所有文档合并为一整篇 markdown 文档
       - name: Merge by toc
         run: |
-          python scripts/merge-by-toc.py
+          python scripts/merge_by_toc.py
 
       # Step 8: 将刚才合并好的文档转换为 pdf 文档
-      - name: Make generate-pdf executable
+      - name: Generate pdf
         run: |
-          chmod +x ./scripts/generate-pdf.sh
-          ./scripts/generate-pdf.sh
+          chmod +x ./scripts/generate_pdf.sh
+          ./scripts/generate_pdf.sh
 
       # Step 9: 设置 SSH 环境，为接下来的 scp 做准备
       - name: Set up SSH environment
