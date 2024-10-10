@@ -15,7 +15,7 @@ jobs:
         with:
           persist-credentials: false
           lfs: true
-          ref: main
+          ref: master
 
       # Step 2: 安装 pandoc
       - name: Install pandoc
