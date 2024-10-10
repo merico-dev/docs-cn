@@ -20,7 +20,7 @@ _version_tag="$(date '+%Y%m%d')"
 # add docs versions
 # generate PDF for dev version
 
-output_path="Merico_EE_guideline.pdf"
+output_path="merico_ee_guideline.pdf"
 
 pandoc -N --toc --smart --latex-engine=xelatex \
 --template=templates/template.tex \
@@ -35,4 +35,4 @@ pandoc -N --toc --smart --latex-engine=xelatex \
 -V monofont="${MONOFONT}" \
 -V geometry:margin=1in \
 -V include-after="\\input{templates/copyright.tex}" \
-"doc.md" -s -o "Merico_EE_guideline.pdf"
+"doc.md" -s -o "merico_ee_guideline.pdf"

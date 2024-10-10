@@ -80,7 +80,7 @@ jobs:
       # Step 10: 将生成的 pdf 文件传输到官网服务器
       - name: Copy files to official website server using SCP
         run: |
-          scp -o ServerAliveInterval=60 Merico_EE_guideline.pdf ${{ secrets.OFFICIAL_WEBSITE_PDF_TARGET }}
+          scp -o ServerAliveInterval=60 merico_ee_guideline.pdf ${{ secrets.OFFICIAL_WEBSITE_PDF_TARGET }}
 
       # Step 11: 清理 SSH key
       - name: Clean up SSH key
