@@ -45,7 +45,7 @@ jobs:
       - name: Install fonts
         run: |
           sudo mkdir -p /usr/share/fonts/truetype/custom
-          sudo cp ./fonts/*.{ttf,otf} /usr/share/fonts/truetype/custom/
+          sudo cp ./fonts/*.ttf /usr/share/fonts/truetype/custom/
           sudo fc-cache -f -v
 
       # Step 6: 设置 Python 环境
