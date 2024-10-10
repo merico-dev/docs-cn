@@ -1,11 +1,11 @@
-name: Generate PDF
+name: Generate PDF and upload to official website server
 
 on:
   # 添加 workflow_dispatch 以允许手动触发
   workflow_dispatch:
 
 jobs:
-  generate-pdf:
+  generate-pdf-and-upload:
     runs-on: ubuntu-latest
 
     steps:
