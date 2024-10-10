@@ -1,6 +1,10 @@
 name: prod dispath
 
 on:
+  schedule:
+    # 每天凌晨 2 点（北京时间）运行
+    - cron: "0 18 * * *"
+
   workflow_dispatch:
   # watch:
   #   types: started

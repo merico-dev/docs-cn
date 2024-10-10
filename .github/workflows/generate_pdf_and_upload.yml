@@ -1,6 +1,10 @@
 name: Generate PDF and upload to official website server
 
 on:
+  schedule:
+    # 每天凌晨 3 点（北京时间）运行
+    - cron: "0 19 * * *"
+
   # 添加 workflow_dispatch 以允许手动触发
   workflow_dispatch:
 
