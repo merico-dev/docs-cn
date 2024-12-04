@@ -59,8 +59,9 @@
     - [日志](/tool_box/0_log.md)
     - [展示板](/tool_box/1_display_board.md)
   - [系统设置](/settings/0_settings_main.md)
-  - Dashboards
+  - dashboards
     - [日志](/tool_box/0_log.md)
+    - [展示板](/tool_box/1_display_board.md)
 
 - [常见问题回答（FAQ）](/FAQ2022.md)
 
