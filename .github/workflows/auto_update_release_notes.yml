@@ -27,9 +27,9 @@ jobs:
       - name: Download binaries
         run: |
           mkdir -p ./bin
-          wget -P ./bin ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/bin/feishu2md
-          wget -P ./bin ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/bin/jq
-          wget -P ./bin ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/bin/ossutil
+          wget -P ./bin ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}bin/feishu2md
+          wget -P ./bin ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}bin/jq
+          wget -P ./bin ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}bin/ossutil
 
       # Step 3: 给 feishu2md、jq、ossutil 可执行权限
       - name: Make feishu2md and jq and ossutil executable
