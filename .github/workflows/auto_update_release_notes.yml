@@ -18,20 +18,29 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          lfs: true
           ref: master
 
-      # Step 2: 给 feishu2md、jq、ossutil 可执行文件权限
+      # Step 2: 下载必要的可执行文件 feishu2md、jq、ossutil
       # feishu2md 是用于获取飞书文档并转换为 markdown 文档的工具
       # jq 是用于处理 json 数据的工具
       # ossutil 是用于上传图片到阿里云 oss 服务器的工具
+      - name: Download binaries
+        run: |
+          mkdir -p ./bin
+          cd bin
+          wget ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/bin/feishu2md
+          wget ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/bin/jq
+          wget ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/bin/ossutil
+          cd ..
+
+      # Step 3: 给 feishu2md、jq、ossutil 可执行权限
       - name: Make feishu2md and jq and ossutil executable
         run: |
           chmod +x ./bin/feishu2md
           chmod +x ./bin/jq
           chmod +x ./bin/ossutil
 
-      # Step 3: 配置 feishu2md
+      # Step 4: 配置 feishu2md
       - name: Configure feishu2md
         run: |
           # 查看 feishu2md 版本
@@ -47,7 +56,7 @@ jobs:
           # 查看最新的配置文件内容
           cat "$FEISHU2MD_CONF_FILE"
 
-      # Step 4: 运行 feishu2md 获取飞书文档（含文档中的图片）并转换为 markdown 文档
+      # Step 5: 运行 feishu2md 获取飞书文档（含文档中的图片）并转换为 markdown 文档
       - name: Run feishu2md to fetch feishu docs
         run: |
           mkdir -p ./feishu2md_output
@@ -56,7 +65,7 @@ jobs:
           ls -al
           cd ..
 
-      # Step 5: 使用仓库内的 ossutil 将刚才获取的图片上传到阿里云 oss 服务器
+      # Step 6: 使用仓库内的 ossutil 将刚才获取的图片上传到阿里云 oss 服务器
       - name: Upload images in docs to Aliyun OSS
         run: |
           if [ -d "./feishu2md_output/static/" ]; then
@@ -68,7 +77,7 @@ jobs:
             echo "Directory ./feishu2md_output/static/ does not exist. Skipping upload."
           fi
 
-      # Step 6: 处理 markdown 文件
+      # Step 7: 处理 markdown 文件
       - name: Process downloaded markdown docs
         run: |
           NEW_STATIC_PATH="${{ secrets.ALIYUN_OSS_STATIC_PUBLIC_PATH }}"
@@ -89,7 +98,7 @@ jobs:
             fi
           done
 
-      # Step 7: 使用 feishu2md_output 中的 markdown 文件替换 release_notes 目录中的文件
+      # Step 8: 使用 feishu2md_output 中的 markdown 文件替换 release_notes 目录中的文件
       - name: Replace release_notes with feishu markdown files
         run: |
           # 检查 release_notes 目录是否存在，存在则清空目录，不存在则创建目录
@@ -108,29 +117,29 @@ jobs:
 
           ls -al ./release_notes
 
-      # Step 8: 设置 Python 环境
+      # Step 9: 设置 Python 环境
       - name: Set up Python environment
         uses: actions/setup-python@v5
         with:
           python-version: ">=3.10"
 
-      # Step 9: 安装 semver 依赖，用于接下来对 release notes 按版本号进行排序
+      # Step 10: 安装 semver 依赖，用于接下来对 release notes 按版本号进行排序
       - name: Install semver using pip
         run: |
           pip install semver
 
-      # Step 10: 根据 release_notes 目录中的 markdown 文件列表更新 toc
+      # Step 11: 根据 release_notes 目录中的 markdown 文件列表更新 toc
       - name: Update toc with release notes
         run: |
           python scripts/update_toc_with_release_notes.py
 
-      # Step 11: 生成分支名，用于发起 pull request
+      # Step 12: 生成分支名，用于发起 pull request
       - name: Generate branch name
         run: |
           BRANCH_NAME=update-release-notes-with-toc-$(date +%Y%m%d%H%M%S)
           echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
 
-      # Step 12: 就 release_notes 和 toc 的改动发起 pull request
+      # Step 13: 就 release_notes 和 toc 的改动发起 pull request
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
         with:

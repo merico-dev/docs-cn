@@ -18,17 +18,29 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          lfs: true
           ref: master
 
-      # Step 2: 安装 pandoc
+      # Step 2: 下载必要的可执行文件和字体文件
+      - name: Download binaries and fonts
+        run: |
+          mkdir -p ./bin
+          cd bin
+          wget ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/bin/pandoc.deb
+          cd ..
+          mkdir -p ./fonts
+          cd fonts
+          wget ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/fonts/wen_quan_yi_micro_hei_mono_regular.ttf
+          wget ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}/fonts/wen_quan_yi_micro_hei_regular.ttf
+          cd ..
+
+      # Step 3: 安装 pandoc
       - name: Install pandoc
         run: |
           sudo dpkg -r pandoc
           sudo dpkg -i ./bin/pandoc.deb
           pandoc --version
 
-      # Step 3: 安装 TinyTeX
+      # Step 4: 安装 TinyTeX
       - name: Install dependencies
         run: |
           sudo apt-get update
@@ -37,7 +49,7 @@ jobs:
         env:
           TINYTEX_INSTALLER: "TinyTeX-2"
 
-      # Step 4: 将 TinyTeX 添加到 PATH
+      # Step 5: 将 TinyTeX 添加到 PATH
       - name: Add TinyTeX to PATH
         run: |
           sudo ~/.TinyTeX/bin/x86_64-linux/tlmgr path add
@@ -45,31 +57,31 @@ jobs:
           tlmgr --version
           echo "${HOME}/.TinyTeX/bin/x86_64-linux" >> $GITHUB_PATH
 
-      # Step 5: 安装字体
+      # Step 6: 安装字体
       - name: Install fonts
         run: |
           sudo mkdir -p /usr/share/fonts/truetype/custom
           sudo cp ./fonts/*.ttf /usr/share/fonts/truetype/custom/
           sudo fc-cache -f -v
 
-      # Step 6: 设置 Python 环境
+      # Step 7: 设置 Python 环境
       - name: Set up Python environment
         uses: actions/setup-python@v5
         with:
           python-version: ">=3.10"
 
-      # Step 7: 根据 toc 将所有文档合并为一整篇 markdown 文档
+      # Step 8: 根据 toc 将所有文档合并为一整篇 markdown 文档
       - name: Merge by toc
         run: |
           python scripts/merge_by_toc.py
 
-      # Step 8: 将刚才合并好的文档转换为 pdf 文档
+      # Step 9: 将刚才合并好的文档转换为 pdf 文档
       - name: Generate pdf
         run: |
           chmod +x ./scripts/generate_pdf.sh
           ./scripts/generate_pdf.sh
 
-      # Step 9: 设置 SSH 环境，为接下来的 scp 做准备
+      # Step 10: 设置 SSH 环境，为接下来的 scp 做准备
       - name: Set up SSH environment
         run: |
           mkdir -p ~/.ssh
@@ -77,11 +89,11 @@ jobs:
           echo "${{ secrets.OFFICIAL_WEBSITE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
 
-      # Step 10: 将生成的 pdf 文件传输到官网服务器
+      # Step 11: 将生成的 pdf 文件传输到官网服务器
       - name: Copy files to official website server using SCP
         run: |
           scp -o ServerAliveInterval=60 merico_ee_guideline.pdf ${{ secrets.OFFICIAL_WEBSITE_PDF_TARGET }}
 
-      # Step 11: 清理 SSH key
+      # Step 12: 清理 SSH key
       - name: Clean up SSH key
         run: rm -f ~/.ssh/id_rsa
