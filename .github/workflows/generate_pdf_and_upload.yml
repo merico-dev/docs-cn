@@ -26,8 +26,8 @@ jobs:
           mkdir -p ./bin
           mkdir -p ./fonts
           wget -P ./bin ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}bin/pandoc.deb
-          wget -P ./fonts ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}fonts/wen_quan_yi_micro_hei_mono_regular.ttf
-          wget -P ./fonts ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}fonts/wen_quan_yi_micro_hei_regular.ttf
+          wget -P ./fonts ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}fonts/wenquanyi-micro-hei-mono-regular.ttf
+          wget -P ./fonts ${{ secrets.MERICO_DOCS_ASSETS_ALIYUN_OSS_PATH }}fonts/wenquanyi-micro-hei-regular.ttf
 
       # Step 3: 安装 pandoc
       - name: Install pandoc
