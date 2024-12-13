@@ -64,6 +64,7 @@
   <!-- 发版说明开始 -->
   - [v3.167.2](/release_notes/v3.167.2.md)
   - [v3.167.1](/release_notes/v3.167.1.md)
+  - [v3.166.4](/release_notes/v3.166.4.md)
   - [v3.166.3](/release_notes/v3.166.3.md)
   - [v3.166.2](/release_notes/v3.166.2.md)
   - [v3.166.1](/release_notes/v3.166.1.md)
