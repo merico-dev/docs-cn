@@ -63,6 +63,7 @@
 - 发版说明
   <!-- 发版说明开始 -->
   - [v3.168.1](/release_notes/v3.168.1.md)
+  - [v3.167.7](/release_notes/v3.167.7.md)
   - [v3.167.5](/release_notes/v3.167.5.md)
   - [v3.167.4](/release_notes/v3.167.4.md)
   - [v3.167.3](/release_notes/v3.167.3.md)
