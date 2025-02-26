@@ -59,8 +59,24 @@ jobs:
         run: |
           mkdir -p ./feishu2md_output
           cd feishu2md_output
+
           ../bin/feishu2md download --batch ${{ secrets.FEISHU_RELEASE_NOTES_FOLDER_URL }}
           ls -al
+
+          # 去除 markdown 文档文件名中开头和结尾的空白字符
+          echo "Trimming markdown file names"
+          for file in *.md; do
+            if [[ -f "$file" ]]; then
+              new_name=$(echo "$file" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+              if [[ "$file" != "$new_name" ]]; then
+                # 重命名，如果有重名文件，那就直接覆盖了
+                echo "→ Renaming '$file' to '$new_name'"
+                mv "$file" "$new_name"
+              fi
+            fi
+          done
+          ls -al
+
           cd ..
 
       # Step 6: 使用仓库内的 ossutil 将刚才获取的图片上传到阿里云 oss 服务器
