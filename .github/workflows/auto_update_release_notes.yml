@@ -172,3 +172,19 @@ jobs:
           labels: |
             release_notes_with_toc
             auto_merge
+
+  notify-feishu-on-failure:
+    name: Notify Feishu on Failure
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Send notification to Feishu on failure
+        run: |
+          curl -X POST ${{ secrets.FEISHU_CI_BOT_WEBHOOK_URL }} \
+            -H 'Content-Type: application/json' \
+            -d '{
+                  "msg_type": "text",
+                  "content": {
+                    "text": "🚨 GitHub Action 失败通知：从飞书更新 Release Notes 并发起 PR 时失败!\n- 仓库: ${{ github.repository }}\n- 分支: ${{ github.ref }}\n- 工作流: ${{ github.workflow }}\n- 触发人: ${{ github.actor }}\n- 详情: ${{ github.event.head_commit.message }}\n- [查看日志](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+                  }
+                }'
