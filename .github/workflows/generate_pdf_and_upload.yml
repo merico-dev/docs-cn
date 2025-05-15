@@ -106,6 +106,6 @@ jobs:
             -d '{
                   "msg_type": "text",
                   "content": {
-                    "text": "🚨 GitHub Action 失败通知：生成 PDF 文档并上传时失败!\n- 仓库: ${{ github.repository }}\n- 分支: ${{ github.ref }}\n- 工作流: ${{ github.workflow }}\n- 触发人: ${{ github.actor }}\n- 详情: ${{ github.event.head_commit.message }}\n- 查看日志: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                    "text": "🚨 GitHub Action 失败通知：生成 PDF 文档并上传时失败！\n- 仓库: ${{ github.repository }}\n- 分支: ${{ github.ref }}\n- 工作流: ${{ github.workflow }}\n- 触发人: ${{ github.actor }}\n- 详情: ${{ github.event.head_commit.message }}\n- 查看日志: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
                   }
                 }'
