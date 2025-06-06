@@ -149,4 +149,5 @@
   - [v3.103.0](/release_notes/v3.103.0.md)
   - [v3.12.0](/release_notes/v3.12.0.md)
   - [v3.6.0](/release_notes/v3.6.0.md)
+  - [v3.178.5 ](/release_notes/v3.178.5 .md)
   <!-- 发版说明结束 -->
