@@ -67,7 +67,7 @@ jobs:
           echo "Trimming markdown file names"
           for file in *.md; do
             if [[ -f "$file" ]]; then
-              new_name=$(echo "$file" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+              new_name=$(echo "$file" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+\.md$/.md/')
               if [[ "$file" != "$new_name" ]]; then
                 # 重命名，如果有重名文件，那就直接覆盖了
                 echo "→ Renaming '$file' to '$new_name'"
