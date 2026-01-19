@@ -62,6 +62,7 @@
 - [常见问题回答（FAQ）](/FAQ2022.md)
 - 发版说明
   <!-- 发版说明开始 -->
+  - [v3.195.1](/release_notes/v3.195.1.md)
   - [v3.194.5](/release_notes/v3.194.5.md)
   - [v3.194.4](/release_notes/v3.194.4.md)
   - [v3.194.2](/release_notes/v3.194.2.md)
